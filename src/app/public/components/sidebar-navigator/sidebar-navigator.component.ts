@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
-import {MatSidenav, MatSidenavContainer, MatSidenavContent} from "@angular/material/sidenav";
-import {MatList, MatListItem, MatNavList} from "@angular/material/list";
+import {MatDrawer, MatSidenav, MatSidenavContainer, MatSidenavContent} from "@angular/material/sidenav";
+import {MatListItem, MatNavList} from "@angular/material/list";
 import {MatIcon} from "@angular/material/icon";
-import {MatAnchor, MatButton} from "@angular/material/button";
+import {MatButton} from "@angular/material/button";
 import {RouterLink, RouterOutlet} from "@angular/router";
+
+
 
 @Component({
   selector: 'app-sidebar-navigator',
@@ -16,14 +18,30 @@ import {RouterLink, RouterOutlet} from "@angular/router";
     MatIcon,
     MatButton,
     RouterLink,
+    MatDrawer,
     RouterOutlet,
-    MatAnchor,
-    MatList,
     MatSidenavContent
+
   ],
   templateUrl: './sidebar-navigator.component.html',
   styleUrl: './sidebar-navigator.component.css'
 })
 export class SidebarNavigatorComponent {
+
+  /*
+  options=[
+    {path: 'home', title: 'Home'},
+    {path: 'explorer', title: 'Explorer'},
+    {path: 'event', title: 'Event'}
+  ]
+
+  routesWithoutSidebar: string[] = ['/login', '/register'];
+
+  constructor(private router: Router) {}
+
+  shouldShowSidebar(): boolean {
+    return !this.routesWithoutSidebar.includes(this.router.url);
+  }
+    */
 
 }
