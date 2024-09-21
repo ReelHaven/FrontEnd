@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import {MatSidenav, MatSidenavContainer} from "@angular/material/sidenav";
-import {MatListItem, MatNavList} from "@angular/material/list";
+import {MatSidenav, MatSidenavContainer, MatSidenavContent} from "@angular/material/sidenav";
+import {MatList, MatListItem, MatNavList} from "@angular/material/list";
 import {MatIcon} from "@angular/material/icon";
-import {MatButton} from "@angular/material/button";
+import {MatAnchor, MatButton} from "@angular/material/button";
 import {RouterLink, RouterOutlet} from "@angular/router";
 
 @Component({
@@ -16,7 +16,10 @@ import {RouterLink, RouterOutlet} from "@angular/router";
     MatIcon,
     MatButton,
     RouterLink,
-    RouterOutlet
+    RouterOutlet,
+    MatAnchor,
+    MatList,
+    MatSidenavContent
   ],
   templateUrl: './sidebar-navigator.component.html',
   styleUrl: './sidebar-navigator.component.css'
