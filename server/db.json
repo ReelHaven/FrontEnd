@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Juan",
+      "lastName": "Rodriguez",
+      "userName": "userTest",
+      "birthday": "1990-01-01",
+      "phone": "123456789",
+      "type": "citizen",
+      "email": "juan123@gmail.com",
+      "password": "123456",
+      "membership": "platinum"
+    }
+  ]
+}
