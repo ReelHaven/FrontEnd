@@ -1,0 +1,54 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer  class="sidenav" fixedInViewport opened="true" mode="side">
+    <h3>mindflix logo</h3>
+    <mat-nav-list class="main-options">
+      <mat-list-item class="sidenav-item">
+        <button mat-button routerLink="/home">
+          <mat-icon>home</mat-icon>
+          Home
+        </button>
+      </mat-list-item>
+      <mat-list-item class="sidenav-item">
+        <button mat-button routerLink="/explorer">
+          <mat-icon>menu</mat-icon>
+          Explorar
+        </button>
+      </mat-list-item>
+      <mat-list-item class="sidenav-item">
+        <button mat-button>
+          <mat-icon>bookmarks</mat-icon>
+          Listas
+        </button>
+      </mat-list-item>
+      <mat-list-item class="sidenav-item">
+        <button mat-button>
+          <mat-icon>group</mat-icon>
+          Forums
+        </button>
+      </mat-list-item>
+
+      <mat-list-item class="sidenav-item">
+        <button mat-button>
+          <mat-icon>public</mat-icon>
+          Eventos
+        </button>
+      </mat-list-item>
+    </mat-nav-list>
+    <mat-nav-list class="bottom-options">
+      <mat-list-item class="sidenav-item">
+        <button mat-button>
+          <mat-icon>person</mat-icon>
+        </button>
+      </mat-list-item>
+      <span class="spacer"></span>
+      <mat-list-item class="sidenav-item">
+        <button mat-button>
+          <mat-icon>logout</mat-icon>
+        </button>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

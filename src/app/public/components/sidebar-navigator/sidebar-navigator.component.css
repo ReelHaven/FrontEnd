@@ -1,0 +1,33 @@
+.sidenav{
+  background-color: #C4FCEF;
+  width: 250px;
+  display: flex;
+
+}
+.sidenav-container{
+  display: flex;
+}
+
+.sidenav-item {
+  display: flex;
+  margin-left: 15px;
+  padding: 0;
+  width: fit-content;
+
+}
+
+.main-options{
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-options{
+  display: flex;
+  flex-direction: row;
+  margin-top: 300px;
+
+}
+.spacer{
+  flex: 1 1 auto;
+}
+
