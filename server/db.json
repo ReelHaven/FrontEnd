@@ -1,16 +1,299 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Juan",
-      "lastName": "Rodriguez",
-      "userName": "userTest",
-      "birthday": "1990-01-01",
-      "phone": "123456789",
+      "id": "ade37f54-fd5a-416f-bea7-677994756a52",
+      "name": "Piero",
+      "lastName": "Miranda",
+      "userName": "piero123",
+      "birthDate": "2000-11-25T05:00:00.000Z",
+      "phone": "897654123",
       "type": "citizen",
-      "email": "juan123@gmail.com",
+      "email": "piero@gmail.com",
       "password": "123456",
-      "membership": "platinum"
+      "membership": "premium",
+      "apiId": "v1 "
+    },
+    {
+      "id": "00796ff9-46a4-421e-8049-fff169aac08c",
+      "name": "Jorge",
+      "lastName": "Martinez",
+      "userName": "jorgeM",
+      "birthDate": "2000-11-25T05:00:00.000Z",
+      "phone": "4345",
+      "type": "creator",
+      "email": "jorge@gmail.com",
+      "password": "654321",
+      "membership": "platinum",
+      "apiId": "v1 "
+    }
+  ],
+  "content": [
+    {
+      "contentId": "45",
+      "creatorId": "2",
+      "type": "movie",
+      "title": "Call me",
+      "description": "Comedia optimista sobre un grupo de amigos que se embarcan en un viaje de autodescubrimiento durante un retiro de verano",
+      "category": "comedia",
+      "objective": "desconectar",
+      "feeling": "cansado"
+    },
+    {
+      "contentId": "98",
+      "creatorId": "654",
+      "type": "documental",
+      "title": "Impossible",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "category": "drama",
+      "objective": "inspirarme",
+      "feeling": "motivado"
+    },
+    {
+      "contentId": "101",
+      "creatorId": "5",
+      "type": "movie",
+      "title": "The Last Laughter",
+      "description": "Un comediante en tiempos difíciles busca redescubrir el sentido del humor en los pequeños momentos de la vida.",
+      "category": "comedia",
+      "objective": "relajarme",
+      "feeling": "relajado"
+    },
+    {
+      "contentId": "102",
+      "creatorId": "3",
+      "type": "series",
+      "title": "Wings of Imagination",
+      "description": "Una serie fantástica que te lleva a un mundo lleno de magia, criaturas increíbles y aventuras inimaginables.",
+      "category": "fantasia",
+      "objective": "inspirarme",
+      "feeling": "motivado"
+    },
+    {
+      "contentId": "103",
+      "creatorId": "8",
+      "type": "documentary",
+      "title": "Mind Over Matter",
+      "description": "Un documental que explora el poder de la mente para superar el estrés y la ansiedad en el día a día.",
+      "category": "drama",
+      "objective": "aprender",
+      "feeling": "ansioso"
+    },
+    {
+      "contentId": "104",
+      "creatorId": "7",
+      "type": "movie",
+      "title": "The Quiet Journey",
+      "description": "Un viaje introspectivo de una joven que se embarca en una caminata solitaria para desconectar del mundo.",
+      "category": "aventura",
+      "objective": "desconectar",
+      "feeling": "cansado"
+    },
+    {
+      "contentId": "105",
+      "creatorId": "1",
+      "type": "series",
+      "title": "Laugh Out Loud",
+      "description": "Una divertida serie de sketches cómicos que aborda situaciones cotidianas con un toque de humor absurdo.",
+      "category": "comedia",
+      "objective": "desconectar",
+      "feeling": "motivado"
+    },
+    {
+      "contentId": "106",
+      "creatorId": "9",
+      "type": "documentary",
+      "title": "The Science of Relaxation",
+      "description": "Un análisis profundo de cómo la risa y el entretenimiento pueden mejorar tu salud mental.",
+      "category": "comedy",
+      "objective": "aprender",
+      "feeling": "relajado"
+    },
+    {
+      "contentId": "107",
+      "creatorId": "4",
+      "type": "movie",
+      "title": "Into the Wild Sky",
+      "description": "Un piloto retirado se embarca en la aventura de su vida al descubrir un mundo oculto más allá de las nubes.",
+      "category": "fantasia",
+      "objective": "inspirarme",
+      "feeling": "cansado"
+    },
+    {
+      "contentId": "108",
+      "creatorId": "2",
+      "type": "movie",
+      "title": "Echoes of Tomorrow",
+      "description": "Una profunda historia sobre la lucha de un hombre con su pasado y cómo el amor puede cambiar el destino.",
+      "category": "drama",
+      "objective": "relajarme",
+      "feeling": "triste"
+    },
+    {
+      "contentId": "109",
+      "creatorId": "6",
+      "type": "documentary",
+      "title": "The Journey of Solitude",
+      "description": "Explora cómo las personas encuentran paz y conexión en la naturaleza, desconectándose de la rutina.",
+      "category": "aventura",
+      "objective": "desconectar",
+      "feeling": "cansado"
+    },
+    {
+      "contentId": "110",
+      "creatorId": "10",
+      "type": "series",
+      "title": "Rise of Dreams",
+      "description": "Una serie llena de momentos inspiradores donde los protagonistas enfrentan desafíos y encuentran su propósito.",
+      "category": "drama",
+      "objective": "inspirarme",
+      "feeling": "motivado"
+    },
+    {
+      "contentId": "111",
+      "creatorId": "11",
+      "type": "movie",
+      "title": "Chasing the Horizon",
+      "description": "Una historia de superación personal y descubrimiento en la inmensidad de un desierto misterioso.",
+      "category": "aventura",
+      "objective": "relajarme",
+      "feeling": "relajado"
+    },
+    {
+      "contentId": "112",
+      "creatorId": "12",
+      "type": "documentary",
+      "title": "A World of Fantasy",
+      "description": "Un fascinante viaje por las culturas que han dado origen a los mitos y leyendas más conocidos.",
+      "category": "fantasia",
+      "objective": "aprender",
+      "feeling": "ansioso"
+    },
+    {
+      "contentId": "113",
+      "creatorId": "13",
+      "type": "series",
+      "title": "The Power of Comedy",
+      "description": "Una serie que explora cómo el humor ha sido utilizado a lo largo de la historia para enfrentar adversidades.",
+      "category": "comedy",
+      "objective": "inspirarme",
+      "feeling": "cansado"
+    },
+    {
+      "contentId": "114",
+      "creatorId": "14",
+      "type": "movie",
+      "title": "A Quiet Escape",
+      "description": "Una pareja decide dejar atrás la vida urbana para reencontrarse con la naturaleza en una pequeña cabaña.",
+      "category": "aventura",
+      "objective": "desconectar",
+      "feeling": "relajado"
+    },
+    {
+      "contentId": "115",
+      "creatorId": "15",
+      "type": "documentary",
+      "title": "Finding Serenity",
+      "description": "Una reflexión sobre las diferentes formas en que las personas alrededor del mundo buscan paz interior.",
+      "category": "drama",
+      "objective": "relajarme",
+      "feeling": "ansioso"
+    },
+    {
+      "contentId": "116",
+      "creatorId": "16",
+      "type": "movie",
+      "title": "The Road Less Traveled",
+      "description": "Una historia emocionante de autodescubrimiento y aventura en los paisajes más remotos del planeta.",
+      "category": "aventura",
+      "objective": "inspirarme",
+      "feeling": "motivado"
+    },
+    {
+      "contentId": "117",
+      "creatorId": "17",
+      "type": "movie",
+      "title": "Breaking the Chains",
+      "description": "Una emocionante travesía en la que un grupo de amigos busca escapar de la rutina y reencontrarse con su libertad.",
+      "category": "fantasia",
+      "objective": "desconectar",
+      "feeling": "cansado"
+    },
+    {
+      "contentId": "118",
+      "creatorId": "18",
+      "type": "series",
+      "title": "Laughter's Medicine",
+      "description": "Una serie de historias cortas que muestran cómo el humor puede sanar incluso en los momentos más difíciles.",
+      "category": "comedy",
+      "objective": "relajarme",
+      "feeling": "motivado"
+    },
+    {
+      "contentId": "119",
+      "creatorId": "19",
+      "type": "documentary",
+      "title": "Through the Looking Glass",
+      "description": "Un documental que explora cómo las películas y series de fantasía influyen en la cultura moderna.",
+      "category": "fantasia",
+      "objective": "aprender",
+      "feeling": "cansado"
+    },
+    {
+      "contentId": "120",
+      "creatorId": "20",
+      "type": "movie",
+      "title": "Beyond the Stars",
+      "description": "Un astronauta retirado revive los momentos más significativos de su carrera en una misión espacial que cambiará la historia.",
+      "category": "drama",
+      "objective": "inspirarme",
+      "feeling": "relajado"
+    }
+
+
+
+
+
+
+
+
+
+
+
+  ],
+  "forums": [
+    {
+      "postId": "263",
+      "userId": "1",
+      "contentId": "45",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "score": "5"
+    },
+    {
+      "postId": "852",
+      "userId": "1",
+      "contentId": "45",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "score": "3"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "65",
+      "contentId": "45",
+      "title": "Event for Call me movie",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "date": "2024-05-05",
+      "address": "av.primavera 123",
+      "creatorId": "2"
+    },
+    {
+      "eventId": "456",
+      "contentId": "98",
+      "title": "Event for Impossile movie",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "date": "2024-02-01",
+      "address": "av.primavera 321",
+      "creatorId": "654"
     }
   ]
 }
