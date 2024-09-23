@@ -1,0 +1,22 @@
+.mood-card{
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.Data{
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.continue-button{
+  background-color: #008F7A;
+  color: black;
+
+
+}
