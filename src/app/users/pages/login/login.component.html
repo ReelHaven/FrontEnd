@@ -1,1 +1,22 @@
-<p>login works!</p>
+<app-toolbar-login></app-toolbar-login>
+
+<mat-card class="login-card">
+  <mat-card-title>Log In</mat-card-title>
+  <mat-card-content>
+    <form (ngSubmit)="onSubmit(form)" #form="ngForm">
+      <mat-form-field class="Data">
+        <mat-label>UserName</mat-label>
+        <input matInput placeholder="username" name="username" ngModel required>
+      </mat-form-field>
+      <mat-form-field class="Data">
+        <mat-label>Password</mat-label>
+        <input matInput placeholder="password" name="password" ngModel required type="password">
+      </mat-form-field>
+      <button mat-button class="login-button" type="submit">Login</button>
+      <p *ngIf="errorMessage" style="color: red">{{errorMessage}}</p>
+      <p>¿Olvidaste tu contraseña?</p>
+      <p>¿No tienes una cuenta? <span> <a routerLink="/register">Registrate</a></span></p>
+    </form>
+
+  </mat-card-content>
+</mat-card>
