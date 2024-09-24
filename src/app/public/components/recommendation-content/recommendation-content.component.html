@@ -1,0 +1,18 @@
+
+<mat-card class="recommendation-card">
+  <mat-card-title>Recomendado para ti</mat-card-title>
+  <mat-card-subtitle style="color:grey">Peliculas/series/Documentales</mat-card-subtitle>
+  <mat-card-content class="recommended-content" *ngIf="content.length > 0; else noRecommendations">
+    <div *ngFor="let item of content">
+      <mat-card class="recommended-item">
+        <mat-card-title>{{item.title}}</mat-card-title>
+        <mat-card-subtitle>{{item.type}}</mat-card-subtitle>
+        <mat-card-content>{{item.description}}</mat-card-content>
+      </mat-card>
+      <mat-divider></mat-divider>
+    </div>
+  </mat-card-content>
+  <ng-template #noRecommendations>
+    <p>No recommendations found for your mood values.</p>
+  </ng-template>
+</mat-card>
