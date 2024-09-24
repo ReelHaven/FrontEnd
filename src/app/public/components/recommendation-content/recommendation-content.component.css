@@ -1,0 +1,14 @@
+.recommendation-card{
+  width: 45%;
+  margin: 20px;
+  padding: 10px;
+
+}
+
+.recommended-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 5px;
+  margin: 5px;
+}

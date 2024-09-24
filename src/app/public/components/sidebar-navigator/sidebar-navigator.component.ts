@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import {MatDrawer, MatSidenav, MatSidenavContainer, MatSidenavContent} from "@angular/material/sidenav";
-import {MatListItem, MatNavList} from "@angular/material/list";
+import {MatSidenav, MatSidenavContainer, MatSidenavContent} from "@angular/material/sidenav";
+import {MatList, MatListItem, MatNavList} from "@angular/material/list";
+import {MatAnchor, MatButton} from "@angular/material/button";
 import {MatIcon} from "@angular/material/icon";
-import {MatButton} from "@angular/material/button";
-import {RouterLink, RouterOutlet} from "@angular/router";
-
+import {Router, RouterLink, RouterOutlet} from "@angular/router";
+import {NgIf, NgOptimizedImage} from "@angular/common";
 
 
 @Component({
@@ -15,13 +15,15 @@ import {RouterLink, RouterOutlet} from "@angular/router";
     MatSidenav,
     MatNavList,
     MatListItem,
-    MatIcon,
     MatButton,
+    MatIcon,
+    MatList,
+    MatSidenavContent,
     RouterLink,
-    MatDrawer,
+    MatAnchor,
     RouterOutlet,
-    MatSidenavContent
-
+    NgOptimizedImage,
+    NgIf
   ],
   templateUrl: './sidebar-navigator.component.html',
   styleUrl: './sidebar-navigator.component.css'
@@ -35,13 +37,22 @@ export class SidebarNavigatorComponent {
     {path: 'event', title: 'Event'}
   ]
 
-  routesWithoutSidebar: string[] = ['/login', '/register'];
+   */
+
+  routesWithoutSidebar: string[] = ['/login', '/register', '/mood'];
 
   constructor(private router: Router) {}
 
   shouldShowSidebar(): boolean {
     return !this.routesWithoutSidebar.includes(this.router.url);
   }
-    */
+
+  logout() {
+    localStorage.removeItem('currentUser');
+    localStorage.removeItem('moodValues');
+    this.router.navigate(['/login']).then(r=>console.log("logged out"));
+  }
+
 
 }
+

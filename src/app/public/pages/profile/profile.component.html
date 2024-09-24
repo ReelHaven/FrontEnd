@@ -1,0 +1,50 @@
+<div class="welcoming">
+  <h2>Hola ,{{user.userName}} </h2>
+</div>
+
+<div style="display: flex; justify-content: center">
+  <mat-divider style="width: 90%"></mat-divider>
+</div>
+
+<mat-card class="profile-card">
+  <mat-card-title>
+    {{user.name}} {{user.lastName}}
+  </mat-card-title>
+  <mat-card-content class="profile-content">
+    <div class="photo-section">
+      <img src="default-profile.jpg" alt="user photo" width="200px">
+    </div>
+    <mat-nav-list>
+      <mat-list-item>
+        <mat-icon>cake</mat-icon>
+        {{user.birthDate}}
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon>phone</mat-icon>
+        {{user.phone}}
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon>email</mat-icon>
+        {{user.email}}
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon>mood</mat-icon>
+        {{user.type}}
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-card-content>
+</mat-card>
+
+<mat-card class="membership-info">
+  <mat-card-content class="membership-content">
+    <div>
+      <mat-icon>badge</mat-icon>
+      <p style="font-weight: bold">Membresía actual</p>
+    </div>
+    <span class="spacer"></span>
+    <mat-list-item class="membership-data">
+      <mat-icon>star</mat-icon>
+      {{user.membership}}
+    </mat-list-item>
+  </mat-card-content>
+</mat-card>

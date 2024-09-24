@@ -1,54 +1,72 @@
 <mat-sidenav-container class="sidenav-container">
-  <mat-sidenav #drawer  class="sidenav" fixedInViewport opened="true" mode="side">
-    <h3>mindflix logo</h3>
-    <mat-nav-list class="main-options">
-      <mat-list-item class="sidenav-item">
-        <button mat-button routerLink="/home">
-          <mat-icon>home</mat-icon>
-          Home
-        </button>
-      </mat-list-item>
-      <mat-list-item class="sidenav-item">
-        <button mat-button routerLink="/explorer">
-          <mat-icon>menu</mat-icon>
-          Explorar
-        </button>
-      </mat-list-item>
-      <mat-list-item class="sidenav-item">
-        <button mat-button>
-          <mat-icon>bookmarks</mat-icon>
-          Listas
-        </button>
-      </mat-list-item>
-      <mat-list-item class="sidenav-item">
-        <button mat-button>
-          <mat-icon>group</mat-icon>
-          Forums
-        </button>
-      </mat-list-item>
+  <mat-sidenav #drawer  class="sidenav" fixedInViewport opened="true" mode="side" *ngIf="shouldShowSidebar()">
 
-      <mat-list-item class="sidenav-item">
-        <button mat-button>
-          <mat-icon>public</mat-icon>
-          Eventos
-        </button>
-      </mat-list-item>
-    </mat-nav-list>
-    <mat-nav-list class="bottom-options">
-      <mat-list-item class="sidenav-item">
-        <button mat-button>
-          <mat-icon>person</mat-icon>
-        </button>
-      </mat-list-item>
+    <div style="display: flex; flex-direction: column; height: 100%;">
+
+      <div style="display: flex; justify-content: center; padding: 20px">
+        <img src="mindflix-logo.png" alt="mindflix logo" width="200" >
+      </div>
+
+      <mat-nav-list class="main-options">
+        <mat-list-item class="sidenav-item">
+          <button mat-button routerLink="/home" class="button-item">
+            <mat-icon class="icon-style">home</mat-icon>
+            Home
+          </button>
+        </mat-list-item>
+        <mat-list-item class="sidenav-item">
+          <button mat-button routerLink="/explorer" class="button-item">
+            <mat-icon class="icon-style">menu</mat-icon>
+            Explorar
+          </button>
+        </mat-list-item>
+        <mat-list-item class="sidenav-item">
+          <button mat-button class="button-item">
+            <mat-icon class="icon-style">bookmarks</mat-icon>
+            Listas
+          </button>
+        </mat-list-item>
+        <mat-list-item class="sidenav-item" >
+          <button mat-button class="button-item">
+            <mat-icon class="icon-style">group</mat-icon>
+            Foros
+          </button>
+        </mat-list-item>
+        <mat-list-item class="sidenav-item">
+          <button mat-button class="button-item">
+            <mat-icon class="icon-style">public</mat-icon>
+            Eventos
+          </button>
+        </mat-list-item>
+      </mat-nav-list>
+
       <span class="spacer"></span>
-      <mat-list-item class="sidenav-item">
-        <button mat-button>
-          <mat-icon>logout</mat-icon>
-        </button>
-      </mat-list-item>
-    </mat-nav-list>
+
+      <mat-nav-list class="bottom-options">
+        <mat-list-item class="sidenav-item">
+
+          <button mat-button routerLink="/profile" class="button-item" id="button-bottom">
+            <mat-icon class="icon-style">person</mat-icon>
+            <span class="tooltip">Perfil</span>
+          </button>
+        </mat-list-item>
+        <span class="spacer"></span>
+        <mat-list-item class="sidenav-item">
+          <button mat-button (click)="logout()" class="button-item">
+            <mat-icon class="icon-style">logout</mat-icon>
+            <span class="tooltip">Log out</span>
+          </button>
+
+        </mat-list-item>
+      </mat-nav-list>
+
+    </div>
   </mat-sidenav>
-  <mat-sidenav-content>
+
+  <mat-sidenav-content class="content-container">
     <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
+
+
+
