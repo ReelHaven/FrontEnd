@@ -1,0 +1,28 @@
+mat-card-title {
+  display: flex;
+  justify-content: center;
+}
+
+.login-card {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 30px;
+  text-align: center;
+
+}
+
+.Data{
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.login-button{
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background-color: #008F7A;
+  color: black;
+  justify-self: center;
+}

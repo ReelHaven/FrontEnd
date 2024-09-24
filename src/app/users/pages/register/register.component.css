@@ -1,0 +1,31 @@
+.mat-card-title {
+  display: flex;
+  justify-content: center;
+
+}
+.register-card{
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.Data{
+  width: 35%;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.signup-button{
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background-color: #008F7A;
+  color: black;
+  justify-self: center;
+  display: flex;
+}
