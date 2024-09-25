@@ -1,4 +1,4 @@
-  <mat-tab label="Favoritos">
+  <mat-tab label="Foros">
     <h1 class="list-name"> Foros</h1>
     <div class="list-container responsive-grid">
 
@@ -6,11 +6,13 @@
         <mat-card>
           <img mat-card-image src="mindflix-logo.png" alt="mindflix logo" width="200" >
           <mat-card-header>
-            <mat-card-title>{{ card.title }}</mat-card-title>
+            <mat-card-title>{{ card.postId }}</mat-card-title>
           </mat-card-header>
           <mat-card-content>
-            <p>{{ card.type }}</p>
-            <p>{{ card.description }}</p>
+            <p>{{ card.userId }}</p>
+            <p>{{ card.score }}</p>
+            <p>{{ card.comment }}</p>
+            <p>{{ card.contentId }}</p>
           </mat-card-content>
         </mat-card>
       </div>

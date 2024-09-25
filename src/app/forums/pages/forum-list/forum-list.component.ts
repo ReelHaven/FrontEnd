@@ -14,7 +14,7 @@ type CardContent = {
 }
 
 @Component({
-  selector: 'app-favorites',
+  selector: 'app-forums-list',
   standalone: true,
   imports: [
     MatCardModule,
@@ -24,17 +24,17 @@ type CardContent = {
   templateUrl: './forum-list.component.html',
   styleUrl: './forum-list.component.css'
 })
-export class FavoritesComponent {
+export class ForumsComponent {
   cards = signal<CardContent[]>([]);
 
   constructor() {
     const data = contentData.content;
     const cards: CardContent[] = data.map((item: any) => ({
-      title: item.title,
-      description: item.description,
-      type: item.type,
-      feeling: item.feeling,
-      objective: item.objective
+      postId: item.postId,
+      userId: item.userId,
+      contentId: item.contentId,
+      comment: item.comment,
+      score: item.score
     }));
     this.cards.set(cards);
   }
