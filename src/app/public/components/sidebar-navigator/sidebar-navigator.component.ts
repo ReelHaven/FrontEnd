@@ -30,14 +30,14 @@ import {NgIf, NgOptimizedImage} from "@angular/common";
 })
 export class SidebarNavigatorComponent {
 
-  /*
+
   options=[
     {path: 'home', title: 'Home'},
     {path: 'explorer', title: 'Explorer'},
     {path: 'event', title: 'Event'}
   ]
 
-   */
+
 
   routesWithoutSidebar: string[] = ['/login', '/register', '/mood'];
 

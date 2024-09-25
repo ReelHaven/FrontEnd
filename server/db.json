@@ -36,17 +36,19 @@
       "description": "Comedia optimista sobre un grupo de amigos que se embarcan en un viaje de autodescubrimiento durante un retiro de verano",
       "category": "comedia",
       "objective": "desconectar",
-      "feeling": "cansado"
+      "feeling": "cansado",
+      "image": "https://i.blogs.es/55e8b5/cartel-amigos-pasajeros/1366_2000.jpeg"
     },
     {
       "contentId": "98",
       "creatorId": "654",
-      "type": "documental",
+      "type": "documentary",
       "title": "Impossible",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
       "category": "drama",
       "objective": "inspirarme",
-      "feeling": "motivado"
+      "feeling": "motivado",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSloF_ko0VmYQfw8pYJ1REBISG0JLXLUbZqHA&s"
     },
     {
       "contentId": "101",
@@ -56,7 +58,8 @@
       "description": "Un comediante en tiempos difíciles busca redescubrir el sentido del humor en los pequeños momentos de la vida.",
       "category": "comedia",
       "objective": "relajarme",
-      "feeling": "relajado"
+      "feeling": "relajado",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Bjnovak.jpg"
     },
     {
       "contentId": "102",
@@ -66,7 +69,8 @@
       "description": "Una serie fantástica que te lleva a un mundo lleno de magia, criaturas increíbles y aventuras inimaginables.",
       "category": "fantasia",
       "objective": "inspirarme",
-      "feeling": "motivado"
+      "feeling": "motivado",
+      "image": "https://i0.wp.com/xn--oo-yjab.cl/wp-content/uploads/2020/06/oso-polar-definicion-genero-de-la-fantasia.jpg"
     },
     {
       "contentId": "103",
@@ -76,7 +80,8 @@
       "description": "Un documental que explora el poder de la mente para superar el estrés y la ansiedad en el día a día.",
       "category": "drama",
       "objective": "aprender",
-      "feeling": "ansioso"
+      "feeling": "ansioso",
+      "image": "https://redaccionrosario.com/wp-content/uploads/2023/10/Foto-Prensa-Produccion-Telam-850x491.jpg"
     },
     {
       "contentId": "104",
@@ -86,7 +91,8 @@
       "description": "Un viaje introspectivo de una joven que se embarca en una caminata solitaria para desconectar del mundo.",
       "category": "aventura",
       "objective": "desconectar",
-      "feeling": "cansado"
+      "feeling": "cansado",
+      "image": "https://img.freepik.com/fotos-premium/caminata-solitaria-bosque-otono_384104-3299.jpg"
     },
     {
       "contentId": "105",
@@ -96,7 +102,8 @@
       "description": "Una divertida serie de sketches cómicos que aborda situaciones cotidianas con un toque de humor absurdo.",
       "category": "comedia",
       "objective": "desconectar",
-      "feeling": "motivado"
+      "feeling": "motivado",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHHZpRDDVYXv3f2YjU9qmuTgp0YDi3Ak_RYw&s"
     },
     {
       "contentId": "106",
@@ -104,9 +111,10 @@
       "type": "documentary",
       "title": "The Science of Relaxation",
       "description": "Un análisis profundo de cómo la risa y el entretenimiento pueden mejorar tu salud mental.",
-      "category": "comedy",
+      "category": "comedia",
       "objective": "aprender",
-      "feeling": "relajado"
+      "feeling": "relajado",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP0wlyiVTmab5hzkMX5t9x2fiKix1D62Pbow&s"
     },
     {
       "contentId": "107",
@@ -116,7 +124,8 @@
       "description": "Un piloto retirado se embarca en la aventura de su vida al descubrir un mundo oculto más allá de las nubes.",
       "category": "fantasia",
       "objective": "inspirarme",
-      "feeling": "cansado"
+      "feeling": "cansado",
+      "image": "https://png.pngtree.com/background/20230411/original/pngtree-sky-fantasy-nebula-night-view-starry-sky-picture-image_2389557.jpg"
     },
     {
       "contentId": "108",
@@ -126,7 +135,8 @@
       "description": "Una profunda historia sobre la lucha de un hombre con su pasado y cómo el amor puede cambiar el destino.",
       "category": "drama",
       "objective": "relajarme",
-      "feeling": "triste"
+      "feeling": "triste",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMMQjLKdBYjWEclK2OsDf94OqYPcvgN6sbeA&s"
     },
     {
       "contentId": "109",
@@ -136,7 +146,8 @@
       "description": "Explora cómo las personas encuentran paz y conexión en la naturaleza, desconectándose de la rutina.",
       "category": "aventura",
       "objective": "desconectar",
-      "feeling": "cansado"
+      "feeling": "cansado",
+      "image": "https://alzentro.com/wp-content/uploads/2019/10/Por-qu%C3%A9-es-importante-conectarse-con-la-naturaleza.jpg"
     },
     {
       "contentId": "110",
@@ -146,7 +157,8 @@
       "description": "Una serie llena de momentos inspiradores donde los protagonistas enfrentan desafíos y encuentran su propósito.",
       "category": "drama",
       "objective": "inspirarme",
-      "feeling": "motivado"
+      "feeling": "motivado",
+      "image": "https://i.blogs.es/55e8b5/cartel-amigos-pasajeros/1366_2000.jpeg"
     },
     {
       "contentId": "111",
@@ -156,7 +168,8 @@
       "description": "Una historia de superación personal y descubrimiento en la inmensidad de un desierto misterioso.",
       "category": "aventura",
       "objective": "relajarme",
-      "feeling": "relajado"
+      "feeling": "relajado",
+      "image": "https://i.blogs.es/55e8b5/cartel-amigos-pasajeros/1366_2000.jpeg"
     },
     {
       "contentId": "112",
@@ -166,7 +179,8 @@
       "description": "Un fascinante viaje por las culturas que han dado origen a los mitos y leyendas más conocidos.",
       "category": "fantasia",
       "objective": "aprender",
-      "feeling": "ansioso"
+      "feeling": "ansioso",
+      "image": "https://imagenes.muyinteresante.com/files/article_social_75/uploads/2022/10/12/6346bf3d6833c.jpeg"
     },
     {
       "contentId": "113",
@@ -174,9 +188,10 @@
       "type": "series",
       "title": "The Power of Comedy",
       "description": "Una serie que explora cómo el humor ha sido utilizado a lo largo de la historia para enfrentar adversidades.",
-      "category": "comedy",
+      "category": "comedia",
       "objective": "inspirarme",
-      "feeling": "cansado"
+      "feeling": "cansado",
+      "image": "https://www.lavanguardia.com/andro4all/hero/2023/08/dont-look-up.png?width=768&aspect_ratio=16:9&format=nowebp"
     },
     {
       "contentId": "114",
@@ -186,7 +201,8 @@
       "description": "Una pareja decide dejar atrás la vida urbana para reencontrarse con la naturaleza en una pequeña cabaña.",
       "category": "aventura",
       "objective": "desconectar",
-      "feeling": "relajado"
+      "feeling": "relajado",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM-aFSOXdYDQllcYscjxG2nDAc8slq4gtMpQ&s"
     },
     {
       "contentId": "115",
@@ -196,7 +212,8 @@
       "description": "Una reflexión sobre las diferentes formas en que las personas alrededor del mundo buscan paz interior.",
       "category": "drama",
       "objective": "relajarme",
-      "feeling": "ansioso"
+      "feeling": "ansioso",
+      "image": "https://images.ecestaticos.com/CEYkPONnKKM2bygBP_bVAhV850w=/215x0:2116x1426/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F106%2F447%2F39c%2F10644739ce276ad60fb867e0bb67a650.jpg"
     },
     {
       "contentId": "116",
@@ -206,7 +223,8 @@
       "description": "Una historia emocionante de autodescubrimiento y aventura en los paisajes más remotos del planeta.",
       "category": "aventura",
       "objective": "inspirarme",
-      "feeling": "motivado"
+      "feeling": "motivado",
+      "image": "https://st4.depositphotos.com/20740744/27740/i/450/depositphotos_277407504-stock-photo-beautiful-elegant-cui-moon-lake.jpg"
     },
     {
       "contentId": "117",
@@ -216,7 +234,8 @@
       "description": "Una emocionante travesía en la que un grupo de amigos busca escapar de la rutina y reencontrarse con su libertad.",
       "category": "fantasia",
       "objective": "desconectar",
-      "feeling": "cansado"
+      "feeling": "cansado",
+      "image": "https://i.blogs.es/55e8b5/cartel-amigos-pasajeros/1366_2000.jpeg"
     },
     {
       "contentId": "118",
@@ -224,9 +243,10 @@
       "type": "series",
       "title": "Laughter's Medicine",
       "description": "Una serie de historias cortas que muestran cómo el humor puede sanar incluso en los momentos más difíciles.",
-      "category": "comedy",
+      "category": "comedia",
       "objective": "relajarme",
-      "feeling": "motivado"
+      "feeling": "motivado",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtjqzKJr0yEykwSzkD_zzILTweptcgZfnjaA&s"
     },
     {
       "contentId": "119",
@@ -236,7 +256,8 @@
       "description": "Un documental que explora cómo las películas y series de fantasía influyen en la cultura moderna.",
       "category": "fantasia",
       "objective": "aprender",
-      "feeling": "cansado"
+      "feeling": "cansado",
+      "image": "https://tifalansiimos.wordpress.com/wp-content/uploads/2016/01/fantasia1.jpg"
     },
     {
       "contentId": "120",
@@ -246,7 +267,8 @@
       "description": "Un astronauta retirado revive los momentos más significativos de su carrera en una misión espacial que cambiará la historia.",
       "category": "drama",
       "objective": "inspirarme",
-      "feeling": "relajado"
+      "feeling": "relajado",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX3pRjLEtNfByUUw1EpU2pI47wBO1Z403MfA&s"
     }
 
 
