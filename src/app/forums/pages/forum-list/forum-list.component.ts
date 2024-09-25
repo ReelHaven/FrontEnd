@@ -1,21 +1,42 @@
-import { Component } from '@angular/core';
-import {ListRoomsComponent} from "../../components/list-rooms/list-rooms.component";
-import {MatDialog, MatDialogModule} from '@angular/material/dialog';
-import {CreateRoomDialogComponent} from "../../components/create-room-dialog/create-room-dialog.component";
+import { NgForOf } from "@angular/common";
+import { Component , signal } from '@angular/core';
+import { MatCardModule } from "@angular/material/card";
+import { MatTabsModule } from "@angular/material/tabs";
+import contentData from "../../../../../server/db.json";
+
+
+type CardContent = {
+  postId: string;
+  userId:string;
+  contentId: string;
+  comment: string;
+  score: string;
+}
 
 @Component({
-  selector: 'app-rooms-view',
+  selector: 'app-favorites',
   standalone: true,
   imports: [
-    ListRoomsComponent,MatDialogModule
+    MatCardModule,
+    NgForOf,
+    MatTabsModule
   ],
-  templateUrl: './rooms-view.component.html',
-  styleUrl: './rooms-view.component.css'
+  templateUrl: './forum-list.component.html',
+  styleUrl: './forum-list.component.css'
 })
-export class RoomsViewComponent {
-  constructor(public dialog: MatDialog) {}
+export class FavoritesComponent {
+  cards = signal<CardContent[]>([]);
 
-  openCreateRoomDialog(): void {
-    this.dialog.open(CreateRoomDialogComponent);
+  constructor() {
+    const data = contentData.content;
+    const cards: CardContent[] = data.map((item: any) => ({
+      title: item.title,
+      description: item.description,
+      type: item.type,
+      feeling: item.feeling,
+      objective: item.objective
+    }));
+    this.cards.set(cards);
   }
+
 }

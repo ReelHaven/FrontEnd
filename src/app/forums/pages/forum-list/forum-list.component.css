@@ -1,24 +1,19 @@
-h1 {
-  text-align: center;
-  color: #333;
-  font-size: 32px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  font-family: 'Roboto', sans-serif;
+.list-container {
+  padding: 24px
 }
 
-app-list-rooms {
-  margin-bottom: 20px;
+.list-name {
+  padding: 24px
 }
 
-button {
-  margin: 20px;
-  display: block;
-  background: linear-gradient(90deg, rgba(25,69,107,1) 0%, rgba(49,135,209,1) 100%);
-  color: white !important;
-  border-radius: 50px;
-  padding: 10px;
-  width: 194px;
-  height: 60px;
-  font-size: 20px;
+img {
+  width:100%;
+  height:100px;
+  object-fit: cover;
+}
+
+.responsive-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
 }
