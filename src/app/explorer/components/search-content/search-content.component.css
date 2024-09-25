@@ -1,0 +1,21 @@
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 4rem;
+}
+
+form {
+  display: flex;
+  align-items: center;
+
+}
+
+.panel{
+  max-width: 20rem ;
+  margin-right: 4rem;
+}
+
+.form-field {
+  margin-right: 38rem;
+}
