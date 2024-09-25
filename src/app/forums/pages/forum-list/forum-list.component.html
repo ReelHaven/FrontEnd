@@ -1,4 +1,5 @@
-  <mat-tab label="Foros">
+<mat-tab-group mat-stretch-tabs="false" mat-align-tabs="end">
+<mat-tab label="Foros">
     <h1 class="list-name"> Foros</h1>
     <div class="list-container responsive-grid">
 
@@ -8,13 +9,13 @@
             <mat-card-title>{{ card.postId }}</mat-card-title>
           </mat-card-header>
           <mat-card-content>
-            <p>{{ card.userId }}</p>
-            <p>{{ card.score }}</p>
+            <p>User:{{ card.userId }}</p>
+            <p>Score:{{ card.score }}</p>
+            <p>Movie:{{ card.contentId }}</p>
             <p>{{ card.comment }}</p>
-            <p>{{ card.contentId }}</p>
           </mat-card-content>
         </mat-card>
       </div>
-
     </div>
   </mat-tab>
+</mat-tab-group>

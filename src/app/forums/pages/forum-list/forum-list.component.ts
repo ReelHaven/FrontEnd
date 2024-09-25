@@ -6,11 +6,11 @@ import contentData from "../../../../../server/db.json";
 
 
 type CardContent = {
-  postId: string;
-  userId:string;
-  contentId: string;
+  postId: number;
+  userId: number;
+  contentId: number;
   comment: string;
-  score: string;
+  score: number;
 }
 
 @Component({
@@ -28,7 +28,7 @@ export class ForumsComponent {
   cards = signal<CardContent[]>([]);
 
   constructor() {
-    const data = contentData.content;
+    const data = contentData.forums;
     const cards: CardContent[] = data.map((item: any) => ({
       postId: item.postId,
       userId: item.userId,
