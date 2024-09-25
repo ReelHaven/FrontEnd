@@ -8,6 +8,7 @@ import {ExplorerContentComponent} from "./explorer/pages/explorer-content/explor
 import {SidebarNavigatorComponent} from "./public/components/sidebar-navigator/sidebar-navigator.component";
 import {AuthLayoutComponent} from "./users/pages/auth-layout/auth-layout.component";
 import {ProfileComponent} from "./public/pages/profile/profile.component";
+import {ForumsComponent} from "./forums/pages/forum-list/forum-list.component";
 
 export const routes: Routes = [
 
@@ -43,6 +44,7 @@ export const routes: Routes = [
   {path:'event', component: EventContentComponent},
   {path:'explorer', component: ExplorerContentComponent},
   {path: 'profile', component: ProfileComponent},
+  {path: 'forums', component: ForumsComponent},
   { path: '**', redirectTo: '/home' }
 
 
