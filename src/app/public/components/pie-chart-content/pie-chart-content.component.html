@@ -1,1 +1,9 @@
-<p>pie-chart-content works!</p>
+<mat-card class="pie-container">
+  <h4>Principales estados de animo</h4>
+  <div style="display: flex">
+    <canvas baseChart
+            [data]="pieChartData"
+            [type]="pieChartType">
+    </canvas>
+  </div>
+</mat-card>
