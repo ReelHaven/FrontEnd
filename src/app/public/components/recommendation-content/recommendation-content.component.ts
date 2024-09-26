@@ -3,6 +3,7 @@ import {MoodService} from "../../../users/services/mood.service";
 import {MatCard, MatCardContent, MatCardSubtitle, MatCardTitle} from "@angular/material/card";
 import {MatDivider} from "@angular/material/divider";
 import {NgForOf, NgIf} from "@angular/common";
+import {MatIcon} from "@angular/material/icon";
 
 @Component({
   selector: 'app-recommendation-content',
@@ -14,7 +15,8 @@ import {NgForOf, NgIf} from "@angular/common";
     MatDivider,
     MatCardSubtitle,
     NgForOf,
-    NgIf
+    NgIf,
+    MatIcon
   ],
   templateUrl: './recommendation-content.component.html',
   styleUrl: './recommendation-content.component.css'
