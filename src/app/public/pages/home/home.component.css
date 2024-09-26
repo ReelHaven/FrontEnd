@@ -2,3 +2,7 @@
   padding: 20px;
   padding-bottom: 0px;
 }
+.content-home{
+  display: flex;
+  justify-content: space-evenly;
+}
