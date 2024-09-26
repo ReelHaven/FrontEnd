@@ -7,6 +7,7 @@ export class Event {
   date: string;
   address: string;
   creatorId: number;
+  image: string;
 
   constructor() {
     this.eventId = 0;
@@ -16,5 +17,6 @@ export class Event {
     this.date = "";
     this.address = "";
     this.creatorId = 0;
+    this.image = "";
   }
 }

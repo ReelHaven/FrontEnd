@@ -2,8 +2,8 @@
 <mat-card class="content-card">
   <div class="card-content">
     <!-- Imagen fija "mindflix-logo.png" -->
-    <img alt="MindFlix Logo"
-         src="mindflix-logo.png" mat-card-image class="imgCard"/>
+    <img [alt]="event.title"
+         [src]="event.image" mat-card-image class="imgCard"/>
 
     <div class="text-content">
       <!-- Título y botón Info al costado -->
