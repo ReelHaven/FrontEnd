@@ -9,7 +9,7 @@ export class EventApiService extends BaseService<Event> {
 
   constructor() {
     super();
-    this.resourceEndpoint = '/event';
+    this.resourceEndpoint = '/events';
   }
 
 
