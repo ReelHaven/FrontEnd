@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import {Event} from "../../model/event.entity";
 
 @Component({
   selector: 'app-event-list',
@@ -8,4 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './event-list.component.css'
 })
 export class EventListComponent {
+  @Input() events: Array<Event>=[];
 }
