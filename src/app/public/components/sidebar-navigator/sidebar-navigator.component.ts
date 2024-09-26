@@ -5,6 +5,7 @@ import {MatAnchor, MatButton} from "@angular/material/button";
 import {MatIcon} from "@angular/material/icon";
 import {Router, RouterLink, RouterOutlet} from "@angular/router";
 import {NgIf, NgOptimizedImage} from "@angular/common";
+import {MatMenu, MatMenuItem, MatMenuTrigger} from "@angular/material/menu";
 
 
 @Component({
@@ -23,7 +24,10 @@ import {NgIf, NgOptimizedImage} from "@angular/common";
     MatAnchor,
     RouterOutlet,
     NgOptimizedImage,
-    NgIf
+    NgIf,
+    MatMenu,
+    MatMenuItem,
+    MatMenuTrigger
   ],
   templateUrl: './sidebar-navigator.component.html',
   styleUrl: './sidebar-navigator.component.css'
