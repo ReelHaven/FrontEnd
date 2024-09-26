@@ -1,7 +1,7 @@
 <app-toolbar-login></app-toolbar-login>
 
 <mat-card class="register-card">
-  <mat-card-title>Registration</mat-card-title>
+  <mat-card-title>{{'registration.register' | translate}}</mat-card-title>
   <mat-card-content>
     <form #form="ngForm" (ngSubmit)="onSubmit(form)">
       <mat-form-field class="Data">
@@ -55,10 +55,10 @@
       </mat-form-field>
 
       <div style="display: flex; justify-content: center">
-        <button mat-button class="signup-button" type="submit">Sign Up</button>
+        <button mat-button class="signup-button" type="submit">{{'registration.signup' | translate}}</button>
       </div>
     </form>
-    <button mat-button class="back-button" routerLink="/login">Go back</button>
+    <button mat-button class="back-button" routerLink="/login">{{'registration.back' | translate}}</button>
   </mat-card-content>
 </mat-card>
 

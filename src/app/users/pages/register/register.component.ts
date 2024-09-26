@@ -19,6 +19,7 @@ import {Citizen} from "../../model/citizen/citizen.entity";
 import {provideHttpClient} from "@angular/common/http";
 import {NgForOf} from "@angular/common";
 import {Router, RouterLink} from "@angular/router";
+import {TranslateModule} from "@ngx-translate/core";
 
 interface Type {
   value: string,
@@ -52,7 +53,8 @@ interface memberships {
     MatSelect,
     MatOption,
     NgForOf,
-    RouterLink
+    RouterLink,
+    TranslateModule
   ],
   providers: [provideNativeDateAdapter()],
   changeDetection: ChangeDetectionStrategy.OnPush,

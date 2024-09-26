@@ -1,0 +1,27 @@
+{
+  "login": {
+    "login": "Log in",
+    "password": "Forgot your password?",
+    "account": "Don't have an account?",
+    "register": "Register"
+  },
+  "registration": {
+    "register": "Registration",
+    "signup": "Sign up",
+    "back": "Back to login"
+  },
+  "main": {
+    "home": "Home",
+    "explore": "Explore",
+    "lists": "Lists",
+    "forums": "Forums",
+    "events": "Events"
+  },
+  "mood": {
+    "title": "Mood",
+    "feeling": "How are you feeling today?",
+    "objective": "What are you looking to achieve today?",
+    "category": "Any category in mind?",
+    "continue": "Continue"
+  }
+}
