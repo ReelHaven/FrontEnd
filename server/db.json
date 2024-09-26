@@ -56,6 +56,7 @@
       "category": "comedia",
       "objective": "desconectar",
       "feeling": "cansado",
+      "list": "0",
       "image": "https://i.blogs.es/55e8b5/cartel-amigos-pasajeros/1366_2000.jpeg"
     },
     {
@@ -67,6 +68,7 @@
       "category": "drama",
       "objective": "inspirarme",
       "feeling": "motivado",
+      "list": "1",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSloF_ko0VmYQfw8pYJ1REBISG0JLXLUbZqHA&s"
     },
     {
@@ -78,6 +80,7 @@
       "category": "comedia",
       "objective": "relajarme",
       "feeling": "relajado",
+      "list": "2",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Bjnovak.jpg"
     },
     {
@@ -89,6 +92,7 @@
       "category": "fantasia",
       "objective": "inspirarme",
       "feeling": "motivado",
+      "list": "0",
       "image": "https://i0.wp.com/xn--oo-yjab.cl/wp-content/uploads/2020/06/oso-polar-definicion-genero-de-la-fantasia.jpg"
     },
     {
@@ -100,6 +104,7 @@
       "category": "drama",
       "objective": "aprender",
       "feeling": "ansioso",
+      "list": "1",
       "image": "https://redaccionrosario.com/wp-content/uploads/2023/10/Foto-Prensa-Produccion-Telam-850x491.jpg"
     },
     {
@@ -111,6 +116,7 @@
       "category": "aventura",
       "objective": "desconectar",
       "feeling": "cansado",
+      "list": "2",
       "image": "https://img.freepik.com/fotos-premium/caminata-solitaria-bosque-otono_384104-3299.jpg"
     },
     {
@@ -122,6 +128,7 @@
       "category": "comedia",
       "objective": "desconectar",
       "feeling": "motivado",
+      "list": "0",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHHZpRDDVYXv3f2YjU9qmuTgp0YDi3Ak_RYw&s"
     },
     {
@@ -133,6 +140,7 @@
       "category": "comedia",
       "objective": "aprender",
       "feeling": "relajado",
+      "list": "1",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP0wlyiVTmab5hzkMX5t9x2fiKix1D62Pbow&s"
     },
     {
@@ -144,6 +152,7 @@
       "category": "fantasia",
       "objective": "inspirarme",
       "feeling": "cansado",
+      "list": "2",
       "image": "https://png.pngtree.com/background/20230411/original/pngtree-sky-fantasy-nebula-night-view-starry-sky-picture-image_2389557.jpg"
     },
     {
@@ -155,6 +164,7 @@
       "category": "drama",
       "objective": "relajarme",
       "feeling": "triste",
+      "list": "0",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMMQjLKdBYjWEclK2OsDf94OqYPcvgN6sbeA&s"
     },
     {
@@ -166,6 +176,7 @@
       "category": "aventura",
       "objective": "desconectar",
       "feeling": "cansado",
+      "list": "1",
       "image": "https://alzentro.com/wp-content/uploads/2019/10/Por-qu%C3%A9-es-importante-conectarse-con-la-naturaleza.jpg"
     },
     {
@@ -177,6 +188,7 @@
       "category": "drama",
       "objective": "inspirarme",
       "feeling": "motivado",
+      "list": "2",
       "image": "https://i.blogs.es/55e8b5/cartel-amigos-pasajeros/1366_2000.jpeg"
     },
     {
@@ -188,6 +200,7 @@
       "category": "aventura",
       "objective": "relajarme",
       "feeling": "relajado",
+      "list": "0",
       "image": "https://i.blogs.es/55e8b5/cartel-amigos-pasajeros/1366_2000.jpeg"
     },
     {
@@ -199,6 +212,7 @@
       "category": "fantasia",
       "objective": "aprender",
       "feeling": "ansioso",
+      "list": "1",
       "image": "https://imagenes.muyinteresante.com/files/article_social_75/uploads/2022/10/12/6346bf3d6833c.jpeg"
     },
     {
@@ -210,6 +224,7 @@
       "category": "comedia",
       "objective": "inspirarme",
       "feeling": "cansado",
+      "list": "2",
       "image": "https://www.lavanguardia.com/andro4all/hero/2023/08/dont-look-up.png?width=768&aspect_ratio=16:9&format=nowebp"
     },
     {
@@ -221,6 +236,7 @@
       "category": "aventura",
       "objective": "desconectar",
       "feeling": "relajado",
+      "list": "0",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM-aFSOXdYDQllcYscjxG2nDAc8slq4gtMpQ&s"
     },
     {
@@ -232,6 +248,7 @@
       "category": "drama",
       "objective": "relajarme",
       "feeling": "ansioso",
+      "list": "1",
       "image": "https://images.ecestaticos.com/CEYkPONnKKM2bygBP_bVAhV850w=/215x0:2116x1426/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F106%2F447%2F39c%2F10644739ce276ad60fb867e0bb67a650.jpg"
     },
     {
@@ -243,6 +260,7 @@
       "category": "aventura",
       "objective": "inspirarme",
       "feeling": "motivado",
+      "list": "2",
       "image": "https://st4.depositphotos.com/20740744/27740/i/450/depositphotos_277407504-stock-photo-beautiful-elegant-cui-moon-lake.jpg"
     },
     {
@@ -254,6 +272,7 @@
       "category": "fantasia",
       "objective": "desconectar",
       "feeling": "cansado",
+      "list": "0",
       "image": "https://i.blogs.es/55e8b5/cartel-amigos-pasajeros/1366_2000.jpeg"
     },
     {
@@ -265,6 +284,7 @@
       "category": "comedia",
       "objective": "relajarme",
       "feeling": "motivado",
+      "list": "1",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtjqzKJr0yEykwSzkD_zzILTweptcgZfnjaA&s"
     },
     {
@@ -276,6 +296,7 @@
       "category": "fantasia",
       "objective": "aprender",
       "feeling": "cansado",
+      "list": "2",
       "image": "https://tifalansiimos.wordpress.com/wp-content/uploads/2016/01/fantasia1.jpg"
     },
     {
@@ -287,6 +308,7 @@
       "category": "drama",
       "objective": "inspirarme",
       "feeling": "relajado",
+      "list": "0",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX3pRjLEtNfByUUw1EpU2pI47wBO1Z403MfA&s"
     }
   ],
