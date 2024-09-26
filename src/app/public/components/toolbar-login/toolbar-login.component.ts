@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 import {MatToolbar} from "@angular/material/toolbar";
+import {LanguageSwitcherComponent} from "../language-switcher/language-switcher.component";
 
 @Component({
   selector: 'app-toolbar-login',
   standalone: true,
   imports: [
-    MatToolbar
+    MatToolbar,
+    LanguageSwitcherComponent
   ],
   templateUrl: './toolbar-login.component.html',
   styleUrl: './toolbar-login.component.css'
