@@ -1,0 +1,11 @@
+<div class="title-section">
+  <h1>Contenido Reciente</h1>
+</div>
+<app-search-content (filterRequested)="onFilter($event)"></app-search-content>
+<div *ngIf="filteredRecentContentList.length > 0; else noContent">
+  <app-content-list [contents]="filteredRecentContentList" (contentToggled)="updateRecentContents()"></app-content-list>
+</div>
+
+<ng-template #noContent>
+  <p class="no-content-message">No hay contenido reciente que mostrar.</p>
+</ng-template>

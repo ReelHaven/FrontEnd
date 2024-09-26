@@ -1,4 +1,4 @@
-import { v4 as uuidv4 } from 'uuid'
+import { v4 as uuidv4 } from 'uuid';
 export class Citizen {
   id: string
   name: string
@@ -10,6 +10,7 @@ export class Citizen {
   email: string
   password: string
   membership: string
+  emotions: {[key: string]: number};
 
   constructor(name: string, lastName: string, userName: string,
               birthDate: Date, phone: string, type: string, email: string,
@@ -24,5 +25,11 @@ export class Citizen {
     this.email = email
     this.password = password
     this.membership = membership
+    this.emotions = {
+      relajado: 0,
+      ansioso: 0,
+      cansado: 0,
+      motivado: 0,
+    }
   }
 }

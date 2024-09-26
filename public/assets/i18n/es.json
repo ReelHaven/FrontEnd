@@ -1,0 +1,27 @@
+{
+  "login": {
+    "login": "Iniciar sesión",
+    "password": "¿Olvidaste tu contraseña?",
+    "account": "¿No tienes una cuenta?",
+    "register": "Regístrate"
+  },
+  "registration": {
+    "register": "Registro",
+    "signup": "Regístrate",
+    "back": "Volver"
+  },
+  "main": {
+    "home": "Inicio",
+    "explore": "Explorar",
+    "lists": "Listas",
+    "forums": "Foros",
+    "events": "Eventos"
+  },
+  "mood": {
+    "title": "Estado de ánimo",
+    "feeling": "¿Cómo te sientes hoy?",
+    "objective": "¿Cuál es tu objetivo este dia?",
+    "category": "¿Algún categoría en en especial?",
+    "continue": "Continuar"
+  }
+}

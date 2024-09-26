@@ -7,6 +7,8 @@ import {FormsModule, NgForm} from "@angular/forms";
 import {NgForOf} from "@angular/common";
 import {MatButton} from "@angular/material/button";
 import {Router} from "@angular/router";
+import {LoginService} from "../../services/login.service";
+import {TranslateModule} from "@ngx-translate/core";
 
 interface Feeling {
   value: string,
@@ -37,7 +39,8 @@ interface Category {
     MatOption,
     NgForOf,
     MatCardTitle,
-    MatButton
+    MatButton,
+    TranslateModule
   ],
   templateUrl: './mood.component.html',
   styleUrl: './mood.component.css'
@@ -65,7 +68,28 @@ export class MoodComponent {
     {value: 'drama', viewValue: 'Drama'}
   ];
 
-  constructor(private router: Router) {}
+  user: any;
+  constructor(private router: Router, private loginService: LoginService) {
+    const currentUser = localStorage.getItem('currentUser');
+    this.user = currentUser ? JSON.parse(currentUser) : null;
+  }
+
+  updateUserEmotions(){
+
+  }
+
+  increaseUserFeeling(feeling: string){
+    //console.log("emocion seleccionada aumentada: ",this.user.emotions(feeling))
+    this.user.emotions[feeling] +=1;
+    localStorage.setItem('currentUser', JSON.stringify(this.user));
+
+    this.loginService.update(this.user.id, this.user)
+      .subscribe(r=>console.log("User emotions updated in database"));
+
+  }
+
+
+
 
   onSubmit(form: NgForm){
     if(form.valid){
@@ -74,6 +98,8 @@ export class MoodComponent {
         objective: form.value.objective,
         category: form.value.category
       }
+      this.increaseUserFeeling(moodValues.feeling);
+      ///this.user.emotions[form.value.feeling] +=1;
 
       localStorage.setItem('moodValues', JSON.stringify(moodValues));
       console.log("Current mood values:", moodValues);
