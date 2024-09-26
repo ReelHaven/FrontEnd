@@ -1,7 +1,7 @@
 <app-toolbar-login></app-toolbar-login>
 
 <mat-card class="login-card">
-  <mat-card-title>Log In</mat-card-title>
+  <mat-card-title> {{ 'login.login' | translate }}</mat-card-title>
   <mat-card-content>
     <form (ngSubmit)="onSubmit(form)" #form="ngForm">
       <mat-form-field class="Data">
@@ -14,8 +14,8 @@
       </mat-form-field>
       <button mat-button class="login-button" type="submit">Login</button>
       <p *ngIf="errorMessage" style="color: red">{{errorMessage}}</p>
-      <p>¿Olvidaste tu contraseña?</p>
-      <p>¿No tienes una cuenta? <span> <a routerLink="/register">Registrate</a></span></p>
+      <p>{{'login.password' | translate}}</p>
+      <p>{{'login.account' | translate}}  <span> <a routerLink="/register">{{'login.register' | translate}}</a></span></p>
     </form>
 
   </mat-card-content>

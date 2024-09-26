@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {SidebarNavigatorComponent} from "./public/components/sidebar-navigator/sidebar-navigator.component";
+import {TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-root',
@@ -11,4 +12,9 @@ import {SidebarNavigatorComponent} from "./public/components/sidebar-navigator/s
 })
 export class AppComponent {
   title = 'mindflix-frontend';
+
+  constructor(translate: TranslateService) {
+    translate.setDefaultLang('es');
+    translate.use('es');
+  }
 }
