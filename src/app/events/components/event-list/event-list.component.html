@@ -1,1 +1,4 @@
-<p>event-list works!</p>
+<mat-grid-list cols="1">
+  <app-event-item *ngFor="let event of events" [event]="event">
+  </app-event-item>
+</mat-grid-list>
