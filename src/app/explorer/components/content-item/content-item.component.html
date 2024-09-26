@@ -13,8 +13,10 @@
       <p>{{content.description}}</p>
     </mat-card-content>
     <div class="btn">
-    <button mat-fab extended class="btnCard">
-      <mat-icon>star</mat-icon>Marcar como visto
+    <button mat-fab extended class="btnCard" (click)="markAsSeen()">
+      <mat-icon *ngIf="!isContentSeen()">star_border</mat-icon>
+      <mat-icon *ngIf="isContentSeen()">star</mat-icon>
+      {{ isContentSeen() ? 'Marcado como visto' : 'Marcar como visto' }}
     </button>
     <button mat-fab extended class="btnCard">
       <mat-icon>bookmarks</mat-icon>Añadir a lista

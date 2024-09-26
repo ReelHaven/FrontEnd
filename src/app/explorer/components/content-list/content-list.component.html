@@ -1,5 +1,5 @@
 <mat-grid-list cols="1">
-  <app-content-item *ngFor="let content of contents" [content]="content">
+  <app-content-item *ngFor="let content of contents" [content]="content" (contentToggled)="onContentToggled()">
   </app-content-item>
 </mat-grid-list>
 
