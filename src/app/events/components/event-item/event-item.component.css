@@ -1,0 +1,39 @@
+/* Estilo de la tarjeta */
+.content-card {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+/* Contenido dentro de la tarjeta */
+.card-content {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+/* Imagen */
+.imgCard {
+  width: 15rem;
+  height: auto;
+  margin-right: 1rem;
+}
+
+/* Texto */
+.text-content {
+  flex: 1;
+}
+
+/* Título y botón Info */
+mat-card-header {
+  display: flex;
+  justify-content: space-between;
+  color: #008F7A; /* Color del título */
+}
+
+/* Botón Info */
+.info-button {
+  background-color: #008F7A;
+  color: white;
+}
