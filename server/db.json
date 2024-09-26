@@ -276,12 +276,13 @@
       "score": "3"
     }
   ],
+
   "events": [
     {
       "eventId": "65",
       "contentId": "45",
       "title": "Event for Call me movie",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "description": "Una experiencia única llena de emociones, con una trama que atrapa de principio a fin. ¡No te la pierdas!",
       "date": "2024-05-05",
       "address": "av.primavera 123",
       "creatorId": "2"
@@ -289,8 +290,8 @@
     {
       "eventId": "456",
       "contentId": "98",
-      "title": "Event for Impossile movie",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "title": "Event for Impossible movie",
+      "description": "Un evento lleno de acción y drama, donde cada escena te llevará al límite. ¡Asiste y vive la aventura!",
       "date": "2024-02-01",
       "address": "av.primavera 321",
       "creatorId": "654"
@@ -299,7 +300,7 @@
       "eventId": "789",
       "contentId": "12",
       "title": "Event for Heroes movie",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "description": "Un evento inolvidable que te sumergirá en una historia épica llena de héroes. ¡Prepárate para sentir la adrenalina!",
       "date": "2024-06-15",
       "address": "av.san borja norte 500",
       "creatorId": "200"
@@ -308,7 +309,7 @@
       "eventId": "987",
       "contentId": "34",
       "title": "Event for the Adventures movie",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "description": "Descubre una aventura increíble con giros inesperados y personajes fascinantes. ¡Únete a esta épica travesía!",
       "date": "2024-03-22",
       "address": "av.javier prado 500",
       "creatorId": "450"
@@ -317,7 +318,7 @@
       "eventId": "123",
       "contentId": "56",
       "title": "Event for Sunset movie",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "description": "Un evento mágico lleno de momentos que te harán reflexionar y disfrutar de la puesta de sol. ¡Imperdible!",
       "date": "2024-04-10",
       "address": "av.primavera 600",
       "creatorId": "100"
@@ -326,7 +327,7 @@
       "eventId": "321",
       "contentId": "78",
       "title": "Event for Journey movie",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "description": "Emprende un viaje inolvidable a mundos desconocidos donde la aventura no tiene fin. ¡Sé parte de esta gran travesía!",
       "date": "2024-07-01",
       "address": "av.tomas marsano 900",
       "creatorId": "300"
@@ -335,7 +336,7 @@
       "eventId": "654",
       "contentId": "90",
       "title": "Event for Future movie",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "description": "Una mirada al futuro con una trama impresionante que te hará pensar en lo que está por venir. ¡No te lo pierdas!",
       "date": "2024-08-20",
       "address": "av.primavera 750",
       "creatorId": "400"
@@ -344,7 +345,7 @@
       "eventId": "7890",
       "contentId": "10",
       "title": "Event for Legends movie",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "description": "Vive la leyenda en un evento que te llevará a través del tiempo y te hará sentir parte de la historia. ¡No faltes!",
       "date": "2024-09-14",
       "address": "av.arequipa 100",
       "creatorId": "600"
@@ -353,7 +354,7 @@
       "eventId": "543",
       "contentId": "67",
       "title": "Event for Galaxy movie",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "description": "Viaja a una galaxia lejana y descubre mundos extraordinarios en un evento lleno de acción y aventura. ¡Imperdible!",
       "date": "2024-11-11",
       "address": "av.republica de panama 340",
       "creatorId": "450"
@@ -362,7 +363,7 @@
       "eventId": "222",
       "contentId": "23",
       "title": "Event for Horizon movie",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "description": "Una jornada épica hacia el horizonte, donde los límites se expanden y la imaginación no tiene fronteras. ¡Te esperamos!",
       "date": "2024-12-25",
       "address": "av.salaverry 780",
       "creatorId": "800"
