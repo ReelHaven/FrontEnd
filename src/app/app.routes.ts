@@ -9,7 +9,9 @@ import {FavoritesComponent} from "./lists/pages/favorites/favorites.component";
 import {SidebarNavigatorComponent} from "./public/components/sidebar-navigator/sidebar-navigator.component";
 import {AuthLayoutComponent} from "./users/pages/auth-layout/auth-layout.component";
 import {ProfileComponent} from "./public/pages/profile/profile.component";
+import {ForumsComponent} from "./forums/pages/forum-list/forum-list.component";
 import {RecentContentComponent} from "./explorer/pages/recent-content/recent-content.component";
+
 
 export const routes: Routes = [
 
@@ -46,6 +48,7 @@ export const routes: Routes = [
   {path:'explorer', component: ExplorerContentComponent},
   {path:'recentContent', component: RecentContentComponent},
   {path: 'profile', component: ProfileComponent},
+  {path: 'forums', component: ForumsComponent},
   {path: 'lists', component: FavoritesComponent},
   { path: '**', redirectTo: '/home' }
 
