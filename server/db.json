@@ -39,7 +39,7 @@
       "membership": "premium",
       "emotions": {
         "relajado": 3,
-        "ansioso": 5,
+        "ansioso": 6,
         "cansado": 6,
         "motivado": 8
       },
@@ -317,18 +317,17 @@
       "postId": "263",
       "userId": "1",
       "contentId": "45",
-      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "comment": "¡Me encantó la selección de películas! Cada recomendación parecía hecha a la medida. Realmente lograron ayudarme a desconectar y reducir el estrés después de un día largo. Las historias eran cautivadoras, y los paisajes relajantes fueron justo lo que necesitaba.",
       "score": "5"
     },
     {
       "postId": "852",
       "userId": "1",
       "contentId": "45",
-      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "comment": "Las películas recomendadas me ayudaron a sentirme más tranquilo y relajado. Cada una de ellas tenía un enfoque positivo y reconfortante, lo cual fue ideal para aliviar la ansiedad que sentía. ¡Definitivamente fue una gran manera de despejar mi mente!",
       "score": "3"
     }
   ],
-
   "events": [
     {
       "eventId": "65",

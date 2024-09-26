@@ -30,7 +30,7 @@ import {LanguageSwitcherComponent} from "../language-switcher/language-switcher.
     NgIf,
     MatMenu,
     MatMenuItem,
-    MatMenuTrigger
+    MatMenuTrigger,
     TranslateModule,
     LanguageSwitcherComponent
   ],
