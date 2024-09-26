@@ -7,16 +7,16 @@
 
     <div class="text-content">
       <!-- Título y botón Info al costado -->
-      <mat-card-header>
-        <h3>{{ event.title }}</h3>
+      <mat-card-header style="display: flex ; flex-direction: column">
+        <h5 style="text-align: center">{{ event.title }}</h5>
         <button mat-fab extended class="info-button">
-          <mat-icon>Info</mat-icon>
+          Info
         </button>
       </mat-card-header>
 
       <!-- Descripción -->
       <mat-card-content>
-        <p>{{ event.description }}</p>
+        <p >{{ event.description }}</p>
       </mat-card-content>
     </div>
   </div>

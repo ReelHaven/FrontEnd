@@ -1,16 +1,17 @@
 /* Estilo de la tarjeta */
 .content-card {
   display: flex;
-  align-items: center;
   padding: 1rem;
   margin: 2rem 0;
+  max-width: 500px;
 }
 
 /* Contenido dentro de la tarjeta */
 .card-content {
   display: flex;
-  width: 100%;
+  flex-direction: column;
   align-items: center;
+  width: fit-content;
 }
 
 /* Imagen */
@@ -36,4 +37,7 @@ mat-card-header {
 .info-button {
   background-color: #008F7A;
   color: white;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 15px;
 }
