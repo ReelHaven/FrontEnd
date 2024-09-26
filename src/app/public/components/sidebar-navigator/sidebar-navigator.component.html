@@ -2,6 +2,9 @@
   <mat-sidenav #drawer  class="sidenav" fixedInViewport opened="true" mode="side" *ngIf="shouldShowSidebar()">
 
     <div style="display: flex; flex-direction: column; height: 100%;">
+      <div style="margin:auto ; margin-top: 10px">
+        <app-language-switcher></app-language-switcher>
+      </div>
 
       <div style="display: flex; justify-content: center; padding: 20px">
         <img src="mindflix-logo.png" alt="mindflix logo" width="200" >
@@ -11,31 +14,35 @@
         <mat-list-item class="sidenav-item">
           <button mat-button routerLink="/home" class="button-item">
             <mat-icon class="icon-style">home</mat-icon>
-            Home
+            {{'main.home' | translate}}
           </button>
         </mat-list-item>
         <mat-list-item class="sidenav-item">
-          <button mat-button routerLink="/explorer" class="button-item">
+          <button mat-button [matMenuTriggerFor]="exploreMenu" class="button-item">
             <mat-icon class="icon-style">menu</mat-icon>
-            Explorar
+            {{'main.explore' | translate}}
           </button>
+          <mat-menu #exploreMenu="matMenu">
+            <button mat-menu-item routerLink="/explorer">Contenido Disponible</button>
+            <button mat-menu-item routerLink="/recentContent">Contenido Reciente</button>
+          </mat-menu>
         </mat-list-item>
         <mat-list-item class="sidenav-item">
-          <button mat-button class="button-item">
+          <button mat-button class="button-item" routerLink="/lists">
             <mat-icon class="icon-style">bookmarks</mat-icon>
-            Listas
+            {{'main.lists' | translate}}
           </button>
         </mat-list-item>
         <mat-list-item class="sidenav-item" >
           <button mat-button routerLink="/forums" class="button-item">
             <mat-icon class="icon-style">group</mat-icon>
-            Foros
+            {{'main.forums' | translate}}
           </button>
         </mat-list-item>
         <mat-list-item class="sidenav-item">
-          <button mat-button class="button-item">
+          <button mat-button routerLink="/event" class="button-item">
             <mat-icon class="icon-style">public</mat-icon>
-            Eventos
+            {{'main.events' | translate}}
           </button>
         </mat-list-item>
       </mat-nav-list>

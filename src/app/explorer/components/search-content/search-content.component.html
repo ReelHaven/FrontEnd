@@ -1,0 +1,33 @@
+<div class="search-container">
+  <form (ngSubmit)="onFilter()">
+    <mat-form-field class="form-field" appearance="outline">
+      <mat-label>Search</mat-label>
+      <input matInput [(ngModel)]="searchText" name="title" placeholder="Buscar por título">
+      <button matSuffix mat-icon-button aria-label="search button">
+        <mat-icon>search</mat-icon>
+      </button>
+    </mat-form-field>
+
+    <mat-expansion-panel hideToggle class="panel">
+      <mat-expansion-panel-header>
+        <mat-panel-title>Filtrar por:</mat-panel-title>
+      </mat-expansion-panel-header>
+      <mat-form-field appearance="outline">
+        <mat-label>Categoría</mat-label>
+        <mat-select [(ngModel)]="selectedCategory" name="category">
+          <mat-option value="">Todas</mat-option>
+          <mat-option *ngFor="let category of categories" [value]="category">{{ category }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Tipo</mat-label>
+        <mat-select [(ngModel)]="selectedType" name="type">
+          <mat-option value="">Todos</mat-option>
+          <mat-option *ngFor="let type of types" [value]="type">{{ type }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit">Filtrar</button>
+    </mat-expansion-panel>
+  </form>
+</div>

@@ -1,32 +1,32 @@
 <app-toolbar-login></app-toolbar-login>
 
 <mat-card class="mood-card">
-  <mat-card-title>Estado de animo</mat-card-title>
+  <mat-card-title>{{'mood.title' | translate}}</mat-card-title>
   <mat-card-content>
     <form #form="ngForm" (ngSubmit)="onSubmit(form)">
       <mat-form-field class="Data">
-        <mat-label>¿Cómo te sientes hoy?</mat-label>
+        <mat-label>{{'mood.feeling' | translate}}</mat-label>
         <mat-select name="feeling" ngModel>
           <mat-option *ngFor="let feeling of feelings" [value]="feeling.value">{{feeling.viewValue}}</mat-option>
         </mat-select>
       </mat-form-field>
 
       <mat-form-field class="Data">
-        <mat-label>¿Cuál es tu objetivo este dia?</mat-label>
+        <mat-label>{{'mood.objective' | translate}}</mat-label>
         <mat-select name="objective" ngModel>
           <mat-option *ngFor="let objective of objectives" [value]="objective.value">{{objective.viewValue}}</mat-option>
         </mat-select>
       </mat-form-field>
 
       <mat-form-field class="Data">
-        <mat-label>¿Alguna categoría de contenido en especial?</mat-label>
+        <mat-label>{{'mood.category' | translate}}</mat-label>
         <mat-select name="category" ngModel>
           <mat-option *ngFor="let category of categories" [value]="category.value">{{category.viewValue}}</mat-option>
         </mat-select>
       </mat-form-field>
 
       <div style="display: flex; justify-content: center">
-        <button mat-button class="continue-button">Continuar</button>
+        <button mat-button class="continue-button">{{'mood.continue' | translate}}</button>
       </div>
     </form>
 

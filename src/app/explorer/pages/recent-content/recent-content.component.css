@@ -1,0 +1,11 @@
+.title-section{
+  margin: 4rem;
+}
+
+.no-content-message {
+  font-size: 1.2em;
+  color: #999;
+  text-align: center;
+  margin: 4rem;
+  font-weight: bold;
+}
