@@ -7,6 +7,7 @@ import {FormsModule, NgForm} from "@angular/forms";
 import {NgForOf} from "@angular/common";
 import {MatButton} from "@angular/material/button";
 import {Router} from "@angular/router";
+import {TranslateModule} from "@ngx-translate/core";
 
 interface Feeling {
   value: string,
@@ -37,7 +38,8 @@ interface Category {
     MatOption,
     NgForOf,
     MatCardTitle,
-    MatButton
+    MatButton,
+    TranslateModule
   ],
   templateUrl: './mood.component.html',
   styleUrl: './mood.component.css'
