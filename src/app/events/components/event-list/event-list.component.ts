@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
   styleUrl: './event-list.component.css'
 })
 export class EventListComponent {
-
 }

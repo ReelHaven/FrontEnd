@@ -1,0 +1,29 @@
+<!-- Título y subtítulo -->
+<div class="header">
+  <h1>Evento</h1>
+  <h3>Para ti</h3>
+</div>
+
+<!-- Card de evento -->
+<mat-card class="content-card">
+  <div class="card-content">
+    <!-- Imagen fija "mindflix-logo.png" -->
+    <img alt="MindFlix Logo"
+         src="mindflix-logo.png" mat-card-image class="imgCard"/>
+
+    <div class="text-content">
+      <!-- Título y botón Info al costado -->
+      <mat-card-header>
+        <h3>{{ event.title }}</h3>
+        <button mat-fab extended class="info-button">
+          <mat-icon>info</mat-icon>Info
+        </button>
+      </mat-card-header>
+
+      <!-- Descripción -->
+      <mat-card-content>
+        <p>{{ event.description }}</p>
+      </mat-card-content>
+    </div>
+  </div>
+</mat-card>
