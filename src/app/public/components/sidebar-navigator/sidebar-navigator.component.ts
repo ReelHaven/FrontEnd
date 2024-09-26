@@ -5,6 +5,8 @@ import {MatAnchor, MatButton} from "@angular/material/button";
 import {MatIcon} from "@angular/material/icon";
 import {Router, RouterLink, RouterOutlet} from "@angular/router";
 import {NgIf, NgOptimizedImage} from "@angular/common";
+import {TranslateModule} from "@ngx-translate/core";
+import {LanguageSwitcherComponent} from "../language-switcher/language-switcher.component";
 
 
 @Component({
@@ -23,7 +25,9 @@ import {NgIf, NgOptimizedImage} from "@angular/common";
     MatAnchor,
     RouterOutlet,
     NgOptimizedImage,
-    NgIf
+    NgIf,
+    TranslateModule,
+    LanguageSwitcherComponent
   ],
   templateUrl: './sidebar-navigator.component.html',
   styleUrl: './sidebar-navigator.component.css'

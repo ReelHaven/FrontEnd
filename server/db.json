@@ -25,6 +25,25 @@
       "password": "654321",
       "membership": "platinum",
       "apiId": "v1 "
+    },
+    {
+      "id": "b9e7199b-5d9c-4cf5-b996-46a88f7b81c4",
+      "name": "Pepe",
+      "lastName": "Diaz",
+      "userName": "pepeD",
+      "birthDate": "1990-11-12T05:00:00.000Z",
+      "phone": "46545498",
+      "type": "creator",
+      "email": "pepe@gmail.com",
+      "password": "123456",
+      "membership": "premium",
+      "emotions": {
+        "relajado": 3,
+        "ansioso": 5,
+        "cansado": 6,
+        "motivado": 8
+      },
+      "apiId": "v1 "
     }
   ],
   "content": [
@@ -270,17 +289,6 @@
       "feeling": "relajado",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX3pRjLEtNfByUUw1EpU2pI47wBO1Z403MfA&s"
     }
-
-
-
-
-
-
-
-
-
-
-
   ],
   "forums": [
     {

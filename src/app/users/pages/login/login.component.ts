@@ -9,6 +9,7 @@ import {DataRowOutlet} from "@angular/cdk/table";
 import {Router, RouterLink} from "@angular/router";
 import {LoginService} from "../../services/login.service";
 import {NgIf} from "@angular/common";
+import {TranslateModule} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-login',
@@ -26,7 +27,8 @@ import {NgIf} from "@angular/common";
     DataRowOutlet,
     RouterLink,
     FormsModule,
-    NgIf
+    NgIf,
+    TranslateModule
   ],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
