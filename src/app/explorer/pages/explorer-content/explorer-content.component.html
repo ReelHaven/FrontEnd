@@ -1,1 +1,5 @@
-<p>explorer-content works!</p>
+<div class="title-section">
+  <h1>Contenido disponible</h1>
+</div>
+<app-search-content (filterRequested)="onFilter($event)"></app-search-content>
+<app-content-list [contents]="filteredContentList"></app-content-list>
