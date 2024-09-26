@@ -5,8 +5,27 @@
     <div class="list-container responsive-grid">
 
       <div *ngFor="let card of cards()">
-        <mat-card>
-          <img mat-card-image src="mindflix-logo.png" alt="mindflix logo" width="200" >
+          <mat-card *ngIf="card.list === '1' || card.list === '0'">
+            <img mat-card-image [src]="card.image" alt="{{ card.title }}" width="200" >
+            <mat-card-header>
+              <mat-card-title>{{ card.title }}</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <p>{{ card.type }}</p>
+              <p>{{ card.description }}</p>
+            </mat-card-content>
+          </mat-card>
+      </div>
+
+    </div>
+  </mat-tab>
+
+  <mat-tab label="Ver Más Tarde">
+    <h1 class="list-name"> Ver Más Tarde</h1>
+    <div class="list-container responsive-grid">
+      <div *ngFor="let card of cards()">
+        <mat-card *ngIf="card.list === '2'">
+          <img mat-card-image [src]="card.image" alt="{{ card.title }}}" width="200" >
           <mat-card-header>
             <mat-card-title>{{ card.title }}</mat-card-title>
           </mat-card-header>
@@ -16,23 +35,6 @@
           </mat-card-content>
         </mat-card>
       </div>
-
-    </div>
-  </mat-tab>
-
-  <mat-tab label="Ver Más Tarde">
-    <h1 class="list-name"> Ver Más Tarde</h1>
-    <div class="list-container responsive-grid">
-      <mat-card *ngFor="let card of cards()">
-        <img mat-card-image src="mindflix-logo.png" alt="mindflix logo" width="200" >
-        <mat-card-header>
-          <mat-card-title>{{ card.title }}</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-          <p>{{ card.type }}</p>
-          <p>{{ card.description }}</p>
-        </mat-card-content>
-      </mat-card>
 
     </div>
   </mat-tab>

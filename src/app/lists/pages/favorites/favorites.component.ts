@@ -1,8 +1,10 @@
-import { NgForOf } from "@angular/common";
+import {NgForOf, NgIf} from "@angular/common";
 import { Component , signal } from '@angular/core';
 import { MatCardModule } from "@angular/material/card";
 import { MatTabsModule } from "@angular/material/tabs";
-import contentData from "../../../../../server/db.json";
+//import contentData from "../../../../../server/db.json";
+import { HttpClientModule } from "@angular/common/http";
+import { ListsService } from "../../services/lists.service";
 
 
 type CardContent = {
@@ -11,6 +13,9 @@ type CardContent = {
   type: string;
   feeling: string;
   objective: string;
+  category: string;
+  list: string;
+  image: string;
 }
 
 @Component({
@@ -19,7 +24,9 @@ type CardContent = {
   imports: [
     MatCardModule,
     NgForOf,
-    MatTabsModule
+    MatTabsModule,
+    HttpClientModule,
+    NgIf
   ],
   templateUrl: './favorites.component.html',
   styleUrl: './favorites.component.css'
@@ -27,16 +34,19 @@ type CardContent = {
 export class FavoritesComponent {
   cards = signal<CardContent[]>([]);
 
-  constructor() {
-    const data = contentData.content;
-    const cards: CardContent[] = data.map((item: any) => ({
-      title: item.title,
-      description: item.description,
-      type: item.type,
-      feeling: item.feeling,
-      objective: item.objective
-    }));
-    this.cards.set(cards);
+  constructor(private listsService: ListsService) {
+    this.getCards();
   }
 
+  getCards() {
+    this.listsService.getCardContent().subscribe({
+      next: (data: CardContent[]) => {
+        // Directly set the entire cards array at once
+        this.cards.set(data);
+      },
+      error: (err) => console.error('Error loading cards:', err)
+    });
+  }
+
+  protected readonly toString = toString;
 }
