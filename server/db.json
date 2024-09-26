@@ -306,24 +306,107 @@
       "score": "3"
     }
   ],
+
   "events": [
     {
       "eventId": "65",
       "contentId": "45",
       "title": "Event for Call me movie",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "description": "Una experiencia única llena de emociones, con una trama que atrapa de principio a fin. ¡No te la pierdas!",
       "date": "2024-05-05",
       "address": "av.primavera 123",
-      "creatorId": "2"
+      "creatorId": "2",
+      "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/movie-night-design-template-fe34b244f7a8309e2122e7d84dacae32_screen.jpg?ts=1698354986"
     },
     {
       "eventId": "456",
       "contentId": "98",
-      "title": "Event for Impossile movie",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "title": "Event for Impossible movie",
+      "description": "Un evento lleno de acción y drama, donde cada escena te llevará al límite. ¡Asiste y vive la aventura!",
       "date": "2024-02-01",
       "address": "av.primavera 321",
-      "creatorId": "654"
+      "creatorId": "654",
+      "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/theatre-and-film-design-template-c101caa38ab93bf2240b0c4041c9efe3_screen.jpg?ts=1698355031"
+    },
+    {
+      "eventId": "789",
+      "contentId": "12",
+      "title": "Event for Heroes movie",
+      "description": "Un evento inolvidable que te sumergirá en una historia épica llena de héroes. ¡Prepárate para sentir la adrenalina!",
+      "date": "2024-06-15",
+      "address": "av.san borja norte 500",
+      "creatorId": "200",
+      "image": "https://cdn.create.vista.com/downloads/5537bbb6-7b24-45af-8a5c-fdb84152ae72_1024.jpeg"
+    },
+    {
+      "eventId": "987",
+      "contentId": "34",
+      "title": "Event for the Adventures movie",
+      "description": "Descubre una aventura increíble con giros inesperados y personajes fascinantes. ¡Únete a esta épica travesía!",
+      "date": "2024-03-22",
+      "address": "av.javier prado 500",
+      "creatorId": "450",
+      "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/outdoor-night-movie-party-invitation-design-template-d5892497e7a8f5fd0687032dfeed193b_screen.jpg?ts=1637004044"
+    },
+    {
+      "eventId": "123",
+      "contentId": "56",
+      "title": "Event for Sunset movie",
+      "description": "Un evento mágico lleno de momentos que te harán reflexionar y disfrutar de la puesta de sol. ¡Imperdible!",
+      "date": "2024-04-10",
+      "address": "av.primavera 600",
+      "creatorId": "100",
+      "image": "https://www.benitomovieposter.com/catalog/images/movieposter/35952.jpg"
+    },
+    {
+      "eventId": "321",
+      "contentId": "78",
+      "title": "Event for Journey movie",
+      "description": "Emprende un viaje inolvidable a mundos desconocidos donde la aventura no tiene fin. ¡Sé parte de esta gran travesía!",
+      "date": "2024-07-01",
+      "address": "av.tomas marsano 900",
+      "creatorId": "300",
+      "image": "https://img.freepik.com/free-vector/retro-cinema-night-invitation-poster_1284-15074.jpg?t=st=1727336682~exp=1727340282~hmac=63fa25052f17c7cb0ee2558898f95d5b41b5efdb9bb94f8543a1d928974da051&w=740"
+    },
+    {
+      "eventId": "654",
+      "contentId": "90",
+      "title": "Event for Future movie",
+      "description": "Una mirada al futuro con una trama impresionante que te hará pensar en lo que está por venir. ¡No te lo pierdas!",
+      "date": "2024-08-20",
+      "address": "av.primavera 750",
+      "creatorId": "400",
+      "image": "https://thumbs.dreamstime.com/z/science-fiction-movie-fest-advertising-poster-science-fiction-movie-fest-advertising-poster-vintage-style-alien-head-114071076.jpg?ct=jpeg"
+    },
+    {
+      "eventId": "7890",
+      "contentId": "10",
+      "title": "Event for Legends movie",
+      "description": "Vive la leyenda en un evento que te llevará a través del tiempo y te hará sentir parte de la historia. ¡No faltes!",
+      "date": "2024-09-14",
+      "address": "av.arequipa 100",
+      "creatorId": "600",
+      "image": "https://411posters.com/wp-content/uploads/2013/10/Stephen-Hawkings-Time-Travellers-Invitation-black.jpg"
+    },
+    {
+      "eventId": "543",
+      "contentId": "67",
+      "title": "Event for Galaxy movie",
+      "description": "Viaja a una galaxia lejana y descubre mundos extraordinarios en un evento lleno de acción y aventura. ¡Imperdible!",
+      "date": "2024-11-11",
+      "address": "av.republica de panama 340",
+      "creatorId": "450",
+      "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/sci-fi-saturday-movies-marquee-display-design-template-a76cd3e1520cc95e7b3e03cf02d9c332_screen.jpg?ts=1705280416"
+    },
+    {
+      "eventId": "222",
+      "contentId": "23",
+      "title": "Event for Horizon movie",
+      "description": "Una jornada épica hacia el horizonte, donde los límites se expanden y la imaginación no tiene fronteras. ¡Te esperamos!",
+      "date": "2024-12-25",
+      "address": "av.salaverry 780",
+      "creatorId": "800",
+      "image": "https://cdn.venngage.com/template/thumbnail/small/d5178290-a198-478e-9dc9-7bb056527341.webp"
     }
   ]
 }
