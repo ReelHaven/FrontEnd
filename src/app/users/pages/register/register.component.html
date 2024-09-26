@@ -1,0 +1,67 @@
+<app-toolbar-login></app-toolbar-login>
+
+<mat-card class="register-card">
+  <mat-card-title>{{'registration.register' | translate}}</mat-card-title>
+  <mat-card-content>
+    <form #form="ngForm" (ngSubmit)="onSubmit(form)">
+      <mat-form-field class="Data">
+        <mat-label>Name</mat-label>
+        <input matInput name="name" ngModel placeholder="name" required>
+      </mat-form-field>
+      <mat-form-field class="Data">
+        <mat-label>Last Name</mat-label>
+        <input matInput name="lastName" ngModel placeholder="lastname" required>
+      </mat-form-field>
+      <mat-form-field class="Data">
+        <mat-label>UserName</mat-label>
+        <input matInput name="userName" ngModel placeholder="username" required>
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Birthday</mat-label>
+        <input matInput [matDatepicker]="picker" name="birthDate" ngModel>
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+
+      <mat-form-field class="Data">
+        <mat-label>Phone</mat-label>
+        <input matInput name="phone" ngModel placeholder="phone" required>
+      </mat-form-field>
+
+      <mat-form-field class="Data">
+        <mat-label>User Type</mat-label>
+        <mat-select name="type" ngModel>
+          <mat-option *ngFor="let type of types" [value]="type.value">{{type.viewValue}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field class="Data">
+        <mat-label>Email</mat-label>
+        <input matInput name="email" ngModel placeholder="email" required>
+      </mat-form-field>
+
+      <mat-form-field class="Data">
+        <mat-label>Password</mat-label>
+        <input type="password" matInput name="password" ngModel placeholder="password" required>
+      </mat-form-field>
+
+      <mat-form-field class="Data">
+        <mat-label>Membership</mat-label>
+        <mat-select name="membership" ngModel>
+          <mat-option *ngFor="let membership of memberships" [value]="membership.value">{{membership.viewValue}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <div style="display: flex; justify-content: center">
+        <button mat-button class="signup-button" type="submit">{{'registration.signup' | translate}}</button>
+      </div>
+    </form>
+    <button mat-button class="back-button" routerLink="/login">{{'registration.back' | translate}}</button>
+  </mat-card-content>
+</mat-card>
+
+
+
+

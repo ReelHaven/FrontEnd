@@ -1,0 +1,433 @@
+{
+  "users": [
+    {
+      "id": "ade37f54-fd5a-416f-bea7-677994756a52",
+      "name": "Piero",
+      "lastName": "Miranda",
+      "userName": "piero123",
+      "birthDate": "2000-11-25T05:00:00.000Z",
+      "phone": "897654123",
+      "type": "citizen",
+      "email": "piero@gmail.com",
+      "password": "123456",
+      "membership": "premium",
+      "apiId": "v1 "
+    },
+    {
+      "id": "00796ff9-46a4-421e-8049-fff169aac08c",
+      "name": "Jorge",
+      "lastName": "Martinez",
+      "userName": "jorgeM",
+      "birthDate": "2000-11-25T05:00:00.000Z",
+      "phone": "4345",
+      "type": "creator",
+      "email": "jorge@gmail.com",
+      "password": "654321",
+      "membership": "platinum",
+      "apiId": "v1 "
+    },
+    {
+      "id": "b9e7199b-5d9c-4cf5-b996-46a88f7b81c4",
+      "name": "Pepe",
+      "lastName": "Diaz",
+      "userName": "pepeD",
+      "birthDate": "1990-11-12T05:00:00.000Z",
+      "phone": "46545498",
+      "type": "creator",
+      "email": "pepe@gmail.com",
+      "password": "123456",
+      "membership": "premium",
+      "emotions": {
+        "relajado": 3,
+        "ansioso": 6,
+        "cansado": 6,
+        "motivado": 8
+      },
+      "apiId": "v1 "
+    }
+  ],
+  "content": [
+    {
+      "contentId": "45",
+      "creatorId": "2",
+      "type": "movie",
+      "title": "Call me",
+      "description": "Comedia optimista sobre un grupo de amigos que se embarcan en un viaje de autodescubrimiento durante un retiro de verano",
+      "category": "comedia",
+      "objective": "desconectar",
+      "feeling": "cansado",
+      "list": "0",
+      "image": "https://i.blogs.es/55e8b5/cartel-amigos-pasajeros/1366_2000.jpeg"
+    },
+    {
+      "contentId": "98",
+      "creatorId": "654",
+      "type": "documentary",
+      "title": "Impossible",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ullamcorper nisl augue, vitae tincidunt sapien venenatis ut. Aenean dapibus sit.",
+      "category": "drama",
+      "objective": "inspirarme",
+      "feeling": "motivado",
+      "list": "1",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSloF_ko0VmYQfw8pYJ1REBISG0JLXLUbZqHA&s"
+    },
+    {
+      "contentId": "101",
+      "creatorId": "5",
+      "type": "movie",
+      "title": "The Last Laughter",
+      "description": "Un comediante en tiempos difíciles busca redescubrir el sentido del humor en los pequeños momentos de la vida.",
+      "category": "comedia",
+      "objective": "relajarme",
+      "feeling": "relajado",
+      "list": "2",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Bjnovak.jpg"
+    },
+    {
+      "contentId": "102",
+      "creatorId": "3",
+      "type": "series",
+      "title": "Wings of Imagination",
+      "description": "Una serie fantástica que te lleva a un mundo lleno de magia, criaturas increíbles y aventuras inimaginables.",
+      "category": "fantasia",
+      "objective": "inspirarme",
+      "feeling": "motivado",
+      "list": "0",
+      "image": "https://i0.wp.com/xn--oo-yjab.cl/wp-content/uploads/2020/06/oso-polar-definicion-genero-de-la-fantasia.jpg"
+    },
+    {
+      "contentId": "103",
+      "creatorId": "8",
+      "type": "documentary",
+      "title": "Mind Over Matter",
+      "description": "Un documental que explora el poder de la mente para superar el estrés y la ansiedad en el día a día.",
+      "category": "drama",
+      "objective": "aprender",
+      "feeling": "ansioso",
+      "list": "1",
+      "image": "https://redaccionrosario.com/wp-content/uploads/2023/10/Foto-Prensa-Produccion-Telam-850x491.jpg"
+    },
+    {
+      "contentId": "104",
+      "creatorId": "7",
+      "type": "movie",
+      "title": "The Quiet Journey",
+      "description": "Un viaje introspectivo de una joven que se embarca en una caminata solitaria para desconectar del mundo.",
+      "category": "aventura",
+      "objective": "desconectar",
+      "feeling": "cansado",
+      "list": "2",
+      "image": "https://img.freepik.com/fotos-premium/caminata-solitaria-bosque-otono_384104-3299.jpg"
+    },
+    {
+      "contentId": "105",
+      "creatorId": "1",
+      "type": "series",
+      "title": "Laugh Out Loud",
+      "description": "Una divertida serie de sketches cómicos que aborda situaciones cotidianas con un toque de humor absurdo.",
+      "category": "comedia",
+      "objective": "desconectar",
+      "feeling": "motivado",
+      "list": "0",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHHZpRDDVYXv3f2YjU9qmuTgp0YDi3Ak_RYw&s"
+    },
+    {
+      "contentId": "106",
+      "creatorId": "9",
+      "type": "documentary",
+      "title": "The Science of Relaxation",
+      "description": "Un análisis profundo de cómo la risa y el entretenimiento pueden mejorar tu salud mental.",
+      "category": "comedia",
+      "objective": "aprender",
+      "feeling": "relajado",
+      "list": "1",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP0wlyiVTmab5hzkMX5t9x2fiKix1D62Pbow&s"
+    },
+    {
+      "contentId": "107",
+      "creatorId": "4",
+      "type": "movie",
+      "title": "Into the Wild Sky",
+      "description": "Un piloto retirado se embarca en la aventura de su vida al descubrir un mundo oculto más allá de las nubes.",
+      "category": "fantasia",
+      "objective": "inspirarme",
+      "feeling": "cansado",
+      "list": "2",
+      "image": "https://png.pngtree.com/background/20230411/original/pngtree-sky-fantasy-nebula-night-view-starry-sky-picture-image_2389557.jpg"
+    },
+    {
+      "contentId": "108",
+      "creatorId": "2",
+      "type": "movie",
+      "title": "Echoes of Tomorrow",
+      "description": "Una profunda historia sobre la lucha de un hombre con su pasado y cómo el amor puede cambiar el destino.",
+      "category": "drama",
+      "objective": "relajarme",
+      "feeling": "triste",
+      "list": "0",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMMQjLKdBYjWEclK2OsDf94OqYPcvgN6sbeA&s"
+    },
+    {
+      "contentId": "109",
+      "creatorId": "6",
+      "type": "documentary",
+      "title": "The Journey of Solitude",
+      "description": "Explora cómo las personas encuentran paz y conexión en la naturaleza, desconectándose de la rutina.",
+      "category": "aventura",
+      "objective": "desconectar",
+      "feeling": "cansado",
+      "list": "1",
+      "image": "https://alzentro.com/wp-content/uploads/2019/10/Por-qu%C3%A9-es-importante-conectarse-con-la-naturaleza.jpg"
+    },
+    {
+      "contentId": "110",
+      "creatorId": "10",
+      "type": "series",
+      "title": "Rise of Dreams",
+      "description": "Una serie llena de momentos inspiradores donde los protagonistas enfrentan desafíos y encuentran su propósito.",
+      "category": "drama",
+      "objective": "inspirarme",
+      "feeling": "motivado",
+      "list": "2",
+      "image": "https://i.blogs.es/55e8b5/cartel-amigos-pasajeros/1366_2000.jpeg"
+    },
+    {
+      "contentId": "111",
+      "creatorId": "11",
+      "type": "movie",
+      "title": "Chasing the Horizon",
+      "description": "Una historia de superación personal y descubrimiento en la inmensidad de un desierto misterioso.",
+      "category": "aventura",
+      "objective": "relajarme",
+      "feeling": "relajado",
+      "list": "0",
+      "image": "https://i.blogs.es/55e8b5/cartel-amigos-pasajeros/1366_2000.jpeg"
+    },
+    {
+      "contentId": "112",
+      "creatorId": "12",
+      "type": "documentary",
+      "title": "A World of Fantasy",
+      "description": "Un fascinante viaje por las culturas que han dado origen a los mitos y leyendas más conocidos.",
+      "category": "fantasia",
+      "objective": "aprender",
+      "feeling": "ansioso",
+      "list": "1",
+      "image": "https://imagenes.muyinteresante.com/files/article_social_75/uploads/2022/10/12/6346bf3d6833c.jpeg"
+    },
+    {
+      "contentId": "113",
+      "creatorId": "13",
+      "type": "series",
+      "title": "The Power of Comedy",
+      "description": "Una serie que explora cómo el humor ha sido utilizado a lo largo de la historia para enfrentar adversidades.",
+      "category": "comedia",
+      "objective": "inspirarme",
+      "feeling": "cansado",
+      "list": "2",
+      "image": "https://www.lavanguardia.com/andro4all/hero/2023/08/dont-look-up.png?width=768&aspect_ratio=16:9&format=nowebp"
+    },
+    {
+      "contentId": "114",
+      "creatorId": "14",
+      "type": "movie",
+      "title": "A Quiet Escape",
+      "description": "Una pareja decide dejar atrás la vida urbana para reencontrarse con la naturaleza en una pequeña cabaña.",
+      "category": "aventura",
+      "objective": "desconectar",
+      "feeling": "relajado",
+      "list": "0",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM-aFSOXdYDQllcYscjxG2nDAc8slq4gtMpQ&s"
+    },
+    {
+      "contentId": "115",
+      "creatorId": "15",
+      "type": "documentary",
+      "title": "Finding Serenity",
+      "description": "Una reflexión sobre las diferentes formas en que las personas alrededor del mundo buscan paz interior.",
+      "category": "drama",
+      "objective": "relajarme",
+      "feeling": "ansioso",
+      "list": "1",
+      "image": "https://images.ecestaticos.com/CEYkPONnKKM2bygBP_bVAhV850w=/215x0:2116x1426/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F106%2F447%2F39c%2F10644739ce276ad60fb867e0bb67a650.jpg"
+    },
+    {
+      "contentId": "116",
+      "creatorId": "16",
+      "type": "movie",
+      "title": "The Road Less Traveled",
+      "description": "Una historia emocionante de autodescubrimiento y aventura en los paisajes más remotos del planeta.",
+      "category": "aventura",
+      "objective": "inspirarme",
+      "feeling": "motivado",
+      "list": "2",
+      "image": "https://st4.depositphotos.com/20740744/27740/i/450/depositphotos_277407504-stock-photo-beautiful-elegant-cui-moon-lake.jpg"
+    },
+    {
+      "contentId": "117",
+      "creatorId": "17",
+      "type": "movie",
+      "title": "Breaking the Chains",
+      "description": "Una emocionante travesía en la que un grupo de amigos busca escapar de la rutina y reencontrarse con su libertad.",
+      "category": "fantasia",
+      "objective": "desconectar",
+      "feeling": "cansado",
+      "list": "0",
+      "image": "https://i.blogs.es/55e8b5/cartel-amigos-pasajeros/1366_2000.jpeg"
+    },
+    {
+      "contentId": "118",
+      "creatorId": "18",
+      "type": "series",
+      "title": "Laughter's Medicine",
+      "description": "Una serie de historias cortas que muestran cómo el humor puede sanar incluso en los momentos más difíciles.",
+      "category": "comedia",
+      "objective": "relajarme",
+      "feeling": "motivado",
+      "list": "1",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtjqzKJr0yEykwSzkD_zzILTweptcgZfnjaA&s"
+    },
+    {
+      "contentId": "119",
+      "creatorId": "19",
+      "type": "documentary",
+      "title": "Through the Looking Glass",
+      "description": "Un documental que explora cómo las películas y series de fantasía influyen en la cultura moderna.",
+      "category": "fantasia",
+      "objective": "aprender",
+      "feeling": "cansado",
+      "list": "2",
+      "image": "https://tifalansiimos.wordpress.com/wp-content/uploads/2016/01/fantasia1.jpg"
+    },
+    {
+      "contentId": "120",
+      "creatorId": "20",
+      "type": "movie",
+      "title": "Beyond the Stars",
+      "description": "Un astronauta retirado revive los momentos más significativos de su carrera en una misión espacial que cambiará la historia.",
+      "category": "drama",
+      "objective": "inspirarme",
+      "feeling": "relajado",
+      "list": "0",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX3pRjLEtNfByUUw1EpU2pI47wBO1Z403MfA&s"
+    }
+  ],
+  "forums": [
+    {
+      "postId": "263",
+      "userId": "1",
+      "contentId": "45",
+      "comment": "¡Me encantó la selección de películas! Cada recomendación parecía hecha a la medida. Realmente lograron ayudarme a desconectar y reducir el estrés después de un día largo. Las historias eran cautivadoras, y los paisajes relajantes fueron justo lo que necesitaba.",
+      "score": "5"
+    },
+    {
+      "postId": "852",
+      "userId": "1",
+      "contentId": "45",
+      "comment": "Las películas recomendadas me ayudaron a sentirme más tranquilo y relajado. Cada una de ellas tenía un enfoque positivo y reconfortante, lo cual fue ideal para aliviar la ansiedad que sentía. ¡Definitivamente fue una gran manera de despejar mi mente!",
+      "score": "3"
+    }
+  ],
+  "events": [
+    {
+      "eventId": "65",
+      "contentId": "45",
+      "title": "Event for Call me movie",
+      "description": "Una experiencia única llena de emociones, con una trama que atrapa de principio a fin. ¡No te la pierdas!",
+      "date": "2024-05-05",
+      "address": "av.primavera 123",
+      "creatorId": "2",
+      "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/movie-night-design-template-fe34b244f7a8309e2122e7d84dacae32_screen.jpg?ts=1698354986"
+    },
+    {
+      "eventId": "456",
+      "contentId": "98",
+      "title": "Event for Impossible movie",
+      "description": "Un evento lleno de acción y drama, donde cada escena te llevará al límite. ¡Asiste y vive la aventura!",
+      "date": "2024-02-01",
+      "address": "av.primavera 321",
+      "creatorId": "654",
+      "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/theatre-and-film-design-template-c101caa38ab93bf2240b0c4041c9efe3_screen.jpg?ts=1698355031"
+    },
+    {
+      "eventId": "789",
+      "contentId": "12",
+      "title": "Event for Heroes movie",
+      "description": "Un evento inolvidable que te sumergirá en una historia épica llena de héroes. ¡Prepárate para sentir la adrenalina!",
+      "date": "2024-06-15",
+      "address": "av.san borja norte 500",
+      "creatorId": "200",
+      "image": "https://cdn.create.vista.com/downloads/5537bbb6-7b24-45af-8a5c-fdb84152ae72_1024.jpeg"
+    },
+    {
+      "eventId": "987",
+      "contentId": "34",
+      "title": "Event for the Adventures movie",
+      "description": "Descubre una aventura increíble con giros inesperados y personajes fascinantes. ¡Únete a esta épica travesía!",
+      "date": "2024-03-22",
+      "address": "av.javier prado 500",
+      "creatorId": "450",
+      "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/outdoor-night-movie-party-invitation-design-template-d5892497e7a8f5fd0687032dfeed193b_screen.jpg?ts=1637004044"
+    },
+    {
+      "eventId": "123",
+      "contentId": "56",
+      "title": "Event for Sunset movie",
+      "description": "Un evento mágico lleno de momentos que te harán reflexionar y disfrutar de la puesta de sol. ¡Imperdible!",
+      "date": "2024-04-10",
+      "address": "av.primavera 600",
+      "creatorId": "100",
+      "image": "https://www.benitomovieposter.com/catalog/images/movieposter/35952.jpg"
+    },
+    {
+      "eventId": "321",
+      "contentId": "78",
+      "title": "Event for Journey movie",
+      "description": "Emprende un viaje inolvidable a mundos desconocidos donde la aventura no tiene fin. ¡Sé parte de esta gran travesía!",
+      "date": "2024-07-01",
+      "address": "av.tomas marsano 900",
+      "creatorId": "300",
+      "image": "https://img.freepik.com/free-vector/retro-cinema-night-invitation-poster_1284-15074.jpg?t=st=1727336682~exp=1727340282~hmac=63fa25052f17c7cb0ee2558898f95d5b41b5efdb9bb94f8543a1d928974da051&w=740"
+    },
+    {
+      "eventId": "654",
+      "contentId": "90",
+      "title": "Event for Future movie",
+      "description": "Una mirada al futuro con una trama impresionante que te hará pensar en lo que está por venir. ¡No te lo pierdas!",
+      "date": "2024-08-20",
+      "address": "av.primavera 750",
+      "creatorId": "400",
+      "image": "https://thumbs.dreamstime.com/z/science-fiction-movie-fest-advertising-poster-science-fiction-movie-fest-advertising-poster-vintage-style-alien-head-114071076.jpg?ct=jpeg"
+    },
+    {
+      "eventId": "7890",
+      "contentId": "10",
+      "title": "Event for Legends movie",
+      "description": "Vive la leyenda en un evento que te llevará a través del tiempo y te hará sentir parte de la historia. ¡No faltes!",
+      "date": "2024-09-14",
+      "address": "av.arequipa 100",
+      "creatorId": "600",
+      "image": "https://411posters.com/wp-content/uploads/2013/10/Stephen-Hawkings-Time-Travellers-Invitation-black.jpg"
+    },
+    {
+      "eventId": "543",
+      "contentId": "67",
+      "title": "Event for Galaxy movie",
+      "description": "Viaja a una galaxia lejana y descubre mundos extraordinarios en un evento lleno de acción y aventura. ¡Imperdible!",
+      "date": "2024-11-11",
+      "address": "av.republica de panama 340",
+      "creatorId": "450",
+      "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/sci-fi-saturday-movies-marquee-display-design-template-a76cd3e1520cc95e7b3e03cf02d9c332_screen.jpg?ts=1705280416"
+    },
+    {
+      "eventId": "222",
+      "contentId": "23",
+      "title": "Event for Horizon movie",
+      "description": "Una jornada épica hacia el horizonte, donde los límites se expanden y la imaginación no tiene fronteras. ¡Te esperamos!",
+      "date": "2024-12-25",
+      "address": "av.salaverry 780",
+      "creatorId": "800",
+      "image": "https://cdn.venngage.com/template/thumbnail/small/d5178290-a198-478e-9dc9-7bb056527341.webp"
+    }
+  ]
+}
